@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  packages: write
 
 jobs:
   checks:
@@ -58,7 +59,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          registry-url: https://registry.npmjs.org
+          # Publish internal packages to GitHub Packages, not public npmjs.
+          registry-url: https://npm.pkg.github.com
+          scope: "@edwardseshoka"
           cache: npm
 
       - name: Install dependencies
@@ -69,5 +72,5 @@ jobs:
 
       - name: Publish workspaces
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish --workspaces --access restricted
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm publish --workspaces

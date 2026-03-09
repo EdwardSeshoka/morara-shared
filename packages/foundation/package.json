@@ -1,8 +1,13 @@
 {
-  "name": "@morara/foundation",
+  "name": "@edwardseshoka/foundation",
   "version": "0.1.0",
   "description": "Morara shared foundation utilities and abstractions.",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
+    "directory": "packages/foundation"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +22,7 @@
   ],
   "sideEffects": false,
   "publishConfig": {
-    "access": "restricted"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",

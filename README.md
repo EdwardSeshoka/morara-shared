@@ -4,9 +4,9 @@ Shared internal TypeScript packages for Morara.
 
 ## Packages
 
-- `@morara/foundation` — common protocols and abstractions
-- `@morara/contracts` — DTOs and shared contracts
-- `@morara/fixtures` — shared seed/fixture JSON for API scenarios
+- `@edwardseshoka/foundation` — common protocols and abstractions
+- `@edwardseshoka/contracts` — DTOs and shared contracts
+- `@edwardseshoka/fixtures` — shared seed/fixture JSON for API scenarios
 
 ## Versioning model
 
@@ -15,6 +15,18 @@ Shared internal TypeScript packages for Morara.
 - Any internal dependency between workspace packages should use `workspace:*`.
 - For coordinated bumps, use `npm run version:sync -- <new-version-or-semver-bump>` (for example `npm run version:sync -- 0.2.0` or `npm run version:sync -- patch`).
 - Independent per-package versioning can be introduced later without changing package boundaries.
+
+## Internal publishing
+
+- Packages publish to GitHub Packages (`https://npm.pkg.github.com`) under the `@edwardseshoka/*` scope.
+- GitHub Packages is used instead of public npmjs so shared packages stay internal and access is controlled via GitHub permissions.
+- CI publishes only from `main` using the repository `GITHUB_TOKEN`; pull request workflows run validation only.
+- Consumers should configure npm scope routing:
+
+```ini
+registry=https://registry.npmjs.org/
+@edwardseshoka:registry=https://npm.pkg.github.com
+```
 
 ## Fixture organization
 

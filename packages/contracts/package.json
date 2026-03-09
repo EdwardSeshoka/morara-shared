@@ -1,8 +1,13 @@
 {
-  "name": "@morara/contracts",
+  "name": "@edwardseshoka/contracts",
   "version": "0.1.0",
   "description": "Morara shared DTOs and API contracts.",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
+    "directory": "packages/contracts"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +22,7 @@
   ],
   "sideEffects": false,
   "publishConfig": {
-    "access": "restricted"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
