@@ -8,6 +8,8 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "clean": "find . -name dist -type d -prune -exec rm -rf {} +",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces",
     "version:sync": "npm version --workspaces --include-workspace-root=true --no-git-tag-version"
   },
