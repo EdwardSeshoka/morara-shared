@@ -1,0 +1,17 @@
+{
+  "name": "morara-shared",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "clean": "find . -name dist -type d -prune -exec rm -rf {} +",
+    "typecheck": "npm run typecheck --workspaces",
+    "version:sync": "npm version --workspaces --include-workspace-root=true --no-git-tag-version"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

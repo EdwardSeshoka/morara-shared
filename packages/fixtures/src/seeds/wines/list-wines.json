@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": "wine-simonsig-cabernet-2021",
+      "slug": "simonsig-cabernet-sauvignon-2021",
+      "name": "Simonsig Cabernet Sauvignon",
+      "vintage": 2021,
+      "category": "red",
+      "grapeVarieties": ["Cabernet Sauvignon"],
+      "region": {
+        "name": "Stellenbosch",
+        "country": "South Africa"
+      },
+      "price": {
+        "amount": 285.0,
+        "currency": "ZAR"
+      },
+      "rating": 4.6
+    },
+    {
+      "id": "wine-kanonkop-pinotage-2020",
+      "slug": "kanonkop-pinotage-2020",
+      "name": "Kanonkop Pinotage",
+      "vintage": 2020,
+      "category": "red",
+      "grapeVarieties": ["Pinotage"],
+      "region": {
+        "name": "Stellenbosch",
+        "country": "South Africa"
+      },
+      "price": {
+        "amount": 495.0,
+        "currency": "ZAR"
+      },
+      "rating": 4.8
+    },
+    {
+      "id": "wine-creation-chardonnay-2023",
+      "slug": "creation-chardonnay-2023",
+      "name": "Creation Chardonnay",
+      "vintage": 2023,
+      "category": "white",
+      "grapeVarieties": ["Chardonnay"],
+      "region": {
+        "name": "Hemel-en-Aarde",
+        "country": "South Africa"
+      },
+      "price": {
+        "amount": 340.0,
+        "currency": "ZAR"
+      },
+      "rating": 4.5
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 20,
+    "totalItems": 3,
+    "totalPages": 1
+  }
+}

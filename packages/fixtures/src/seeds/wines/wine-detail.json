@@ -1,0 +1,65 @@
+{
+  "data": {
+    "id": "wine-simonsig-cabernet-2021",
+    "slug": "simonsig-cabernet-sauvignon-2021",
+    "name": "Simonsig Cabernet Sauvignon",
+    "vintage": 2021,
+    "category": "red",
+    "description": "A structured Stellenbosch red with dark fruit concentration and polished tannins.",
+    "winery": {
+      "name": "Simonsig Estate",
+      "foundedYear": 1968
+    },
+    "region": {
+      "name": "Stellenbosch",
+      "country": "South Africa",
+      "appellation": "WO Stellenbosch"
+    },
+    "grapeComposition": [
+      {
+        "variety": "Cabernet Sauvignon",
+        "percentage": 92
+      },
+      {
+        "variety": "Merlot",
+        "percentage": 8
+      }
+    ],
+    "alcoholByVolume": 14.2,
+    "residualSugarGPerL": 2.6,
+    "acidityGPerL": 5.7,
+    "maturation": {
+      "vessel": "French oak barrels",
+      "durationMonths": 16,
+      "newOakPercentage": 35
+    },
+    "serving": {
+      "temperatureCelsius": {
+        "min": 16,
+        "max": 18
+      },
+      "decantMinutes": 45
+    },
+    "tastingNotes": {
+      "aroma": ["blackcurrant", "cedar", "graphite"],
+      "palate": ["ripe plum", "cassis", "fine tannin"],
+      "finish": "Long and dry with savory spice."
+    },
+    "foodPairings": ["grilled lamb chops", "beef short ribs", "aged gouda"],
+    "awards": [
+      {
+        "title": "Platinum Medal",
+        "issuer": "Michelangelo International Wine & Spirits Awards",
+        "year": 2024
+      }
+    ],
+    "inventory": {
+      "inStock": 42,
+      "bottleSizeMl": 750
+    },
+    "price": {
+      "amount": 285.0,
+      "currency": "ZAR"
+    }
+  }
+}

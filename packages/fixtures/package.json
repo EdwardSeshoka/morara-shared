@@ -1,0 +1,28 @@
+{
+  "name": "@morara/fixtures",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Morara shared fixtures and seed payloads.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./seeds/*": "./dist/seeds/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && rm -rf dist/seeds && cp -R src/seeds dist/seeds",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}

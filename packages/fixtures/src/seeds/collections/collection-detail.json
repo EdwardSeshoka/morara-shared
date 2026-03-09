@@ -1,0 +1,49 @@
+{
+  "data": {
+    "id": "collection-braai-weekend-reds",
+    "slug": "braai-weekend-reds",
+    "name": "Braai Weekend Reds",
+    "description": "A full-bodied red selection designed for weekend braais and celebratory dinners.",
+    "curationNotes": "Prioritizes structure, spice, and depth to complement charred and smoked flavors.",
+    "items": [
+      {
+        "wineId": "wine-simonsig-cabernet-2021",
+        "name": "Simonsig Cabernet Sauvignon",
+        "vintage": 2021,
+        "price": {
+          "amount": 285.0,
+          "currency": "ZAR"
+        }
+      },
+      {
+        "wineId": "wine-kanonkop-pinotage-2020",
+        "name": "Kanonkop Pinotage",
+        "vintage": 2020,
+        "price": {
+          "amount": 495.0,
+          "currency": "ZAR"
+        }
+      },
+      {
+        "wineId": "wine-meerlust-rubicon-2021",
+        "name": "Meerlust Rubicon",
+        "vintage": 2021,
+        "price": {
+          "amount": 595.0,
+          "currency": "ZAR"
+        }
+      }
+    ],
+    "totals": {
+      "itemCount": 3,
+      "estimatedCasePrice": {
+        "amount": 1375.0,
+        "currency": "ZAR"
+      }
+    },
+    "availability": {
+      "isActive": true,
+      "lastUpdatedAt": "2026-03-03T12:30:00Z"
+    }
+  }
+}

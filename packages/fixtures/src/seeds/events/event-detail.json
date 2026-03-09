@@ -1,0 +1,45 @@
+{
+  "data": {
+    "id": "event-cape-cellar-mastersclass-may-2026",
+    "slug": "cape-cellar-mastersclass-may-2026",
+    "name": "Cape Cellar Mastersclass",
+    "category": "masterclass",
+    "description": "An in-depth guided tasting focused on cool-climate Chardonnay and Pinot Noir from South African producers.",
+    "startAt": "2026-05-08T18:30:00+02:00",
+    "endAt": "2026-05-08T21:00:00+02:00",
+    "venue": {
+      "name": "The Vineyard Hotel",
+      "addressLine1": "60 Colinton Road",
+      "city": "Cape Town",
+      "country": "South Africa"
+    },
+    "host": {
+      "name": "Lerato Maseko",
+      "title": "Certified Sommelier"
+    },
+    "agenda": [
+      {
+        "startsAt": "2026-05-08T18:30:00+02:00",
+        "title": "Welcome tasting flight"
+      },
+      {
+        "startsAt": "2026-05-08T19:10:00+02:00",
+        "title": "Producer deep dive and terroir comparison"
+      },
+      {
+        "startsAt": "2026-05-08T20:00:00+02:00",
+        "title": "Food pairing session"
+      }
+    ],
+    "ticket": {
+      "currency": "ZAR",
+      "price": 480.0,
+      "capacity": 40,
+      "spotsRemaining": 18
+    },
+    "policies": {
+      "minimumAge": 18,
+      "refundHoursBeforeStart": 48
+    }
+  }
+}

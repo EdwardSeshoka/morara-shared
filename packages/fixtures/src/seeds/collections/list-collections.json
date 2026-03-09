@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": "collection-braai-weekend-reds",
+      "slug": "braai-weekend-reds",
+      "name": "Braai Weekend Reds",
+      "description": "Bold reds curated for open-fire cooking and rich meat dishes.",
+      "itemCount": 3,
+      "wineIds": [
+        "wine-simonsig-cabernet-2021",
+        "wine-kanonkop-pinotage-2020",
+        "wine-meerlust-rubicon-2021"
+      ],
+      "priceRange": {
+        "min": 285.0,
+        "max": 595.0,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "id": "collection-coastal-whites",
+      "slug": "coastal-whites",
+      "name": "Coastal Whites",
+      "description": "Fresh white wines with bright acidity from cool maritime vineyards.",
+      "itemCount": 2,
+      "wineIds": [
+        "wine-creation-chardonnay-2023",
+        "wine-cap-maritime-chardonnay-2022"
+      ],
+      "priceRange": {
+        "min": 340.0,
+        "max": 415.0,
+        "currency": "ZAR"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 20,
+    "totalItems": 2,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "id": "event-cape-cellar-mastersclass-may-2026",
+      "slug": "cape-cellar-mastersclass-may-2026",
+      "name": "Cape Cellar Mastersclass",
+      "category": "masterclass",
+      "startAt": "2026-05-08T18:30:00+02:00",
+      "venue": {
+        "name": "The Vineyard Hotel",
+        "city": "Cape Town",
+        "country": "South Africa"
+      },
+      "ticket": {
+        "currency": "ZAR",
+        "from": 480.0
+      },
+      "spotsRemaining": 18
+    },
+    {
+      "id": "event-winter-reds-pairing-june-2026",
+      "slug": "winter-reds-pairing-june-2026",
+      "name": "Winter Reds Pairing Night",
+      "category": "pairing-dinner",
+      "startAt": "2026-06-12T19:00:00+02:00",
+      "venue": {
+        "name": "The Table at De Meye",
+        "city": "Stellenbosch",
+        "country": "South Africa"
+      },
+      "ticket": {
+        "currency": "ZAR",
+        "from": 720.0
+      },
+      "spotsRemaining": 9
+    }
+  ],
+  "meta": {
+    "strategy": "upcoming-and-low-capacity",
+    "generatedAt": "2026-03-01T06:00:00Z"
+  }
+}
