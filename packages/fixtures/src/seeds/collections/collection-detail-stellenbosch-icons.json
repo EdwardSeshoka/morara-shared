@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "collection-stellenbosch-icons",
+    "slug": "stellenbosch-icons",
+    "title": "Stellenbosch Icons",
+    "description": "Classic cellar-worthy wines from the heart of the Cape.",
+    "coverImage": {
+      "url": "/images/collections/stellenbosch-icons.png",
+      "alt": "Stellenbosch icons collection cover"
+    },
+    "itemCount": 3,
+    "tags": [
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      },
+      {
+        "id": "tag-icons",
+        "label": "Icons",
+        "type": "collectionType"
+      }
+    ],
+    "badges": [],
+    "isFeatured": false,
+    "wineIds": [
+      "wine-rubicon-2018",
+      "wine-kanonkop-2019",
+      "wine-discounted-2020"
+    ],
+    "storyIds": [
+      "story-cabernet-guide",
+      "story-winemaking-process"
+    ]
+  }
+}

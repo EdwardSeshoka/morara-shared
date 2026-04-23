@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "img-wine-rubicon-2018",
+      "url": "/images/wines/rubicon-2018.png",
+      "alt": "Rubicon 2018 bottle"
+    },
+    {
+      "id": "img-wine-kanonkop-2019",
+      "url": "/images/wines/kanonkop-2019.png",
+      "alt": "Kanonkop 2019 bottle"
+    },
+    {
+      "id": "img-wine-chenin-2022",
+      "url": "/images/wines/chenin-2022.png",
+      "alt": "Old Vine Chenin 2022 bottle"
+    },
+    {
+      "id": "img-wine-chardonnay-2023",
+      "url": "/images/wines/chardonnay-2023.png",
+      "alt": "Creation Chardonnay 2023 bottle"
+    },
+    {
+      "id": "img-wine-sold-out",
+      "url": "/images/wines/sold-out.png",
+      "alt": "Sold out wine bottle"
+    },
+    {
+      "id": "img-wine-discounted",
+      "url": "/images/wines/discounted.png",
+      "alt": "Discounted wine bottle"
+    },
+    {
+      "id": "img-story-cabernet",
+      "url": "/images/stories/cabernet-guide.png",
+      "alt": "Cabernet guide hero image"
+    },
+    {
+      "id": "img-story-winemaking",
+      "url": "/images/stories/winemaking.png",
+      "alt": "Winemaking process hero image"
+    },
+    {
+      "id": "img-story-weekend",
+      "url": "/images/stories/weekend-reads.png",
+      "alt": "Weekend reads hero image"
+    },
+    {
+      "id": "img-collection-bordeaux",
+      "url": "/images/collections/bordeaux-blends.png",
+      "alt": "Bordeaux blends collection cover"
+    },
+    {
+      "id": "img-collection-stellenbosch",
+      "url": "/images/collections/stellenbosch-icons.png",
+      "alt": "Stellenbosch icons collection cover"
+    },
+    {
+      "id": "img-collection-empty",
+      "url": "/images/collections/empty.png",
+      "alt": "Empty collection cover"
+    }
+  ]
+}

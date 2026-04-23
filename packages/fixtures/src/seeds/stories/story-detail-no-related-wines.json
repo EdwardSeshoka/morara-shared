@@ -1,0 +1,38 @@
+{
+  "data": {
+    "id": "story-weekend-pairings",
+    "slug": "weekend-pairings",
+    "title": "Weekend Pairings for Braai Night",
+    "subtitle": "Smoky flavors meet bold reds.",
+    "author": "Nandi Mokoena",
+    "publishedAt": "2026-03-02T07:15:00Z",
+    "heroImage": {
+      "url": "/images/stories/weekend-reads.png",
+      "alt": "Weekend reads hero image"
+    },
+    "sections": [
+      {
+        "type": "text",
+        "content": "A braai deserves wines with depth and spice, especially from warmer inland sites."
+      },
+      {
+        "type": "quote",
+        "content": "Smoke and spice bring out the fruit.",
+        "attribution": "Braai master, Cape Town"
+      }
+    ],
+    "tags": [
+      {
+        "id": "tag-weekend-reads",
+        "label": "Weekend Reads",
+        "type": "editorial"
+      }
+    ],
+    "badges": [],
+    "isFeatured": false,
+    "relatedWines": [],
+    "relatedStories": [
+      "story-cabernet-guide"
+    ]
+  }
+}

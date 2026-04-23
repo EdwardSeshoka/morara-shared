@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": "wine-old-vine-chenin-2022",
+    "slug": "old-vine-chenin-2022",
+    "name": "Old Vine Chenin Blanc",
+    "vintage": 2022,
+    "region": "Swartland",
+    "cultivar": "Chenin Blanc",
+    "winery": "Riebeek Cellars",
+    "price": {
+      "amount": 320,
+      "currency": "ZAR",
+      "display": "R320",
+      "isDiscounted": false,
+      "originalAmount": null,
+      "originalDisplay": null
+    },
+    "description": "Fresh quince and citrus with a saline, mineral finish.",
+    "tastingNotes": [],
+    "pairings": [],
+    "images": [
+      {
+        "url": "/images/wines/chenin-2022.png",
+        "alt": "Old Vine Chenin 2022 bottle"
+      }
+    ],
+    "availability": {
+      "status": "inStock",
+      "inStock": 38
+    },
+    "tags": [
+      {
+        "id": "tag-chenin-blanc",
+        "label": "Chenin Blanc",
+        "type": "varietal"
+      },
+      {
+        "id": "tag-swartland",
+        "label": "Swartland",
+        "type": "region"
+      },
+      {
+        "id": "tag-old-vine",
+        "label": "Old Vine",
+        "type": "theme"
+      }
+    ],
+    "badges": [],
+    "isFeatured": false,
+    "relatedWines": []
+  }
+}

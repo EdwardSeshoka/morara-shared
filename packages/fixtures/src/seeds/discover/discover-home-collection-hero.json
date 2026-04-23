@@ -1,0 +1,58 @@
+{
+  "data": {
+    "hero": {
+      "entityType": "collection",
+      "entityId": "collection-bordeaux-blends",
+      "label": "ICONIC COLLECTION",
+      "tags": [
+        {
+          "id": "tag-icons",
+          "label": "Icons",
+          "type": "collectionType"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "collections",
+        "title": "Collections",
+        "type": "collectionCarousel",
+        "isFeatured": true,
+        "tags": [
+          {
+            "id": "tag-icons",
+            "label": "Icons",
+            "type": "collectionType"
+          }
+        ],
+        "collectionIds": [
+          "collection-bordeaux-blends",
+          "collection-stellenbosch-icons",
+          "collection-empty"
+        ]
+      },
+      {
+        "id": "this-week-in-wine",
+        "title": "This Week in Wine",
+        "type": "wineCarousel",
+        "wineIds": [
+          "wine-rubicon-2018",
+          "wine-discounted-2020"
+        ]
+      },
+      {
+        "id": "stories",
+        "title": "Stories",
+        "type": "storyCarousel",
+        "storyIds": [
+          "story-cabernet-guide",
+          "story-winemaking-process"
+        ]
+      }
+    ],
+    "meta": {
+      "generatedAt": "2026-03-13T07:00:00Z",
+      "version": "v1"
+    }
+  }
+}

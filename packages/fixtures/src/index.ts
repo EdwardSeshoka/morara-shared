@@ -6,6 +6,7 @@ import collectionDetail from "./seeds/collections/collection-detail.json" with {
 import listEvents from "./seeds/events/list-events.json" with { type: "json" };
 import featuredEvents from "./seeds/events/featured-events.json" with { type: "json" };
 import eventDetail from "./seeds/events/event-detail.json" with { type: "json" };
+import moraraPublicWines from "./seeds/morara/public-wines.json" with { type: "json" };
 
 export {
   listWines,
@@ -15,7 +16,8 @@ export {
   collectionDetail,
   listEvents,
   featuredEvents,
-  eventDetail
+  eventDetail,
+  moraraPublicWines
 };
 
 export const wineFixtures = {
@@ -38,7 +40,10 @@ export const eventFixtures = {
 export const fixtures = {
   wines: wineFixtures,
   collections: collectionFixtures,
-  events: eventFixtures
+  events: eventFixtures,
+  morara: {
+    publicWines: moraraPublicWines
+  }
 };
 
 export default fixtures;

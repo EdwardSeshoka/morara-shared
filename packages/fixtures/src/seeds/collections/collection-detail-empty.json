@@ -1,0 +1,24 @@
+{
+  "data": {
+    "id": "collection-empty",
+    "slug": "coming-soon",
+    "title": "Coming Soon",
+    "description": "A curated collection landing soon.",
+    "coverImage": {
+      "url": "/images/collections/empty.png",
+      "alt": "Empty collection cover"
+    },
+    "itemCount": 0,
+    "tags": [
+      {
+        "id": "tag-featured",
+        "label": "Featured",
+        "type": "feature"
+      }
+    ],
+    "badges": [],
+    "isFeatured": false,
+    "wineIds": [],
+    "storyIds": []
+  }
+}

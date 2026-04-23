@@ -1,0 +1,88 @@
+{
+  "data": {
+    "hero": {
+      "entityType": "wine",
+      "entityId": "wine-rubicon-2018",
+      "label": "THIS WEEK'S PICK",
+      "tags": [
+        {
+          "id": "tag-featured",
+          "label": "Featured",
+          "type": "feature"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "this-week-in-wine",
+        "title": "This Week in Wine",
+        "type": "wineCarousel",
+        "isFeatured": true,
+        "tags": [
+          {
+            "id": "tag-featured",
+            "label": "Featured",
+            "type": "feature"
+          }
+        ],
+        "wineIds": [
+          "wine-rubicon-2018",
+          "wine-kanonkop-2019",
+          "wine-discounted-2020"
+        ]
+      },
+      {
+        "id": "stories",
+        "title": "Stories",
+        "type": "storyCarousel",
+        "storyIds": [
+          "story-cabernet-guide",
+          "story-winemaking-process",
+          "story-weekend-pairings"
+        ]
+      },
+      {
+        "id": "collections",
+        "title": "Collections",
+        "type": "collectionCarousel",
+        "collectionIds": [
+          "collection-bordeaux-blends",
+          "collection-stellenbosch-icons"
+        ]
+      },
+      {
+        "id": "editorial-mix",
+        "title": "Cellar Picks",
+        "type": "editorialMix",
+        "tags": [
+          {
+            "id": "tag-cellar-picks",
+            "label": "Cellar Picks",
+            "type": "editorial"
+          }
+        ],
+        "items": [
+          {
+            "entityType": "story",
+            "entityId": "story-cabernet-guide",
+            "label": "Editor Spotlight"
+          },
+          {
+            "entityType": "wine",
+            "entityId": "wine-old-vine-chenin-2022",
+            "label": "Fresh Finds"
+          },
+          {
+            "entityType": "collection",
+            "entityId": "collection-stellenbosch-icons",
+            "label": "Iconic Selection"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "generatedAt": "2026-03-13T07:00:00Z",
+      "version": "v1"
+    }
+  }
+}

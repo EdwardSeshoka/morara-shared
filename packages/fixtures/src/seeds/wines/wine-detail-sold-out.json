@@ -1,0 +1,62 @@
+{
+  "data": {
+    "id": "wine-sold-out-2017",
+    "slug": "sold-out-2017",
+    "name": "Reserve Pinotage",
+    "vintage": 2017,
+    "region": "Stellenbosch",
+    "cultivar": "Pinotage",
+    "winery": "Kanonkop Wine Estate",
+    "price": {
+      "amount": 680,
+      "currency": "ZAR",
+      "display": "R680",
+      "isDiscounted": false,
+      "originalAmount": null,
+      "originalDisplay": null
+    },
+    "description": "A deeply layered Pinotage with mocha spice and dark plum.",
+    "tastingNotes": [
+      "dark plum",
+      "mocha",
+      "smoked spice"
+    ],
+    "pairings": [
+      "smoked brisket",
+      "karoo lamb",
+      "aged gouda"
+    ],
+    "images": [
+      {
+        "url": "/images/wines/sold-out.png",
+        "alt": "Sold out wine bottle"
+      }
+    ],
+    "availability": {
+      "status": "soldOut",
+      "inStock": 0
+    },
+    "tags": [
+      {
+        "id": "tag-pinotage",
+        "label": "Pinotage",
+        "type": "varietal"
+      },
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-sold-out",
+        "label": "Sold Out"
+      }
+    ],
+    "isFeatured": false,
+    "relatedWines": [
+      "wine-kanonkop-2019"
+    ]
+  }
+}

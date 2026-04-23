@@ -1,0 +1,70 @@
+{
+  "data": {
+    "id": "wine-rubicon-2018",
+    "slug": "rubicon-2018",
+    "name": "Rubicon",
+    "vintage": 2018,
+    "region": "Stellenbosch",
+    "blend": "Bordeaux Blend",
+    "winery": "Meerlust Estate",
+    "price": {
+      "amount": 560,
+      "currency": "ZAR",
+      "display": "R560",
+      "isDiscounted": false,
+      "originalAmount": null,
+      "originalDisplay": null
+    },
+    "description": "A flagship Stellenbosch blend with layered dark fruit and cedar spice.",
+    "tastingNotes": [
+      "blackcurrant",
+      "cassis",
+      "cedar",
+      "graphite"
+    ],
+    "pairings": [
+      "roast lamb",
+      "chargrilled steak",
+      "aged cheddar"
+    ],
+    "images": [
+      {
+        "url": "/images/wines/rubicon-2018.png",
+        "alt": "Rubicon 2018 bottle"
+      }
+    ],
+    "availability": {
+      "status": "inStock",
+      "inStock": 24
+    },
+    "tags": [
+      {
+        "id": "tag-bordeaux-blend",
+        "label": "Bordeaux Blend",
+        "type": "style"
+      },
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-featured",
+        "label": "Featured"
+      }
+    ],
+    "isFeatured": true,
+    "featuredMeta": {
+      "label": "THIS WEEK'S PICK",
+      "priority": 1,
+      "startAt": "2026-03-01T00:00:00Z",
+      "endAt": "2026-03-31T23:59:59Z"
+    },
+    "relatedWines": [
+      "wine-kanonkop-2019",
+      "wine-discounted-2020"
+    ]
+  }
+}

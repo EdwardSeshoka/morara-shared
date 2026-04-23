@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": "tag-bordeaux-blend",
+      "label": "Bordeaux Blend",
+      "type": "style"
+    },
+    {
+      "id": "tag-cape-blend",
+      "label": "Cape Blend",
+      "type": "style"
+    },
+    {
+      "id": "tag-stellenbosch",
+      "label": "Stellenbosch",
+      "type": "region"
+    },
+    {
+      "id": "tag-hemel-en-aarde",
+      "label": "Hemel-en-Aarde",
+      "type": "region"
+    },
+    {
+      "id": "tag-swartland",
+      "label": "Swartland",
+      "type": "region"
+    },
+    {
+      "id": "tag-cabernet-sauvignon",
+      "label": "Cabernet Sauvignon",
+      "type": "varietal"
+    },
+    {
+      "id": "tag-pinotage",
+      "label": "Pinotage",
+      "type": "varietal"
+    },
+    {
+      "id": "tag-chenin-blanc",
+      "label": "Chenin Blanc",
+      "type": "varietal"
+    },
+    {
+      "id": "tag-cellar-picks",
+      "label": "Cellar Picks",
+      "type": "editorial"
+    },
+    {
+      "id": "tag-weekend-reads",
+      "label": "Weekend Reads",
+      "type": "editorial"
+    },
+    {
+      "id": "tag-featured",
+      "label": "Featured",
+      "type": "feature"
+    },
+    {
+      "id": "tag-icons",
+      "label": "Icons",
+      "type": "collectionType"
+    },
+    {
+      "id": "tag-exclusive",
+      "label": "Exclusive",
+      "type": "feature"
+    },
+    {
+      "id": "tag-heritage",
+      "label": "Heritage",
+      "type": "theme"
+    },
+    {
+      "id": "tag-old-vine",
+      "label": "Old Vine",
+      "type": "theme"
+    }
+  ]
+}

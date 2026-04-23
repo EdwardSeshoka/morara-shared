@@ -1,0 +1,62 @@
+{
+  "data": {
+    "id": "wine-discounted-2020",
+    "slug": "discounted-2020",
+    "name": "Cape Blend Reserve",
+    "vintage": 2020,
+    "region": "Stellenbosch",
+    "blend": "Cape Blend",
+    "winery": "Simonsig Estate",
+    "price": {
+      "amount": 420,
+      "currency": "ZAR",
+      "display": "R420",
+      "isDiscounted": true,
+      "originalAmount": 520,
+      "originalDisplay": "R520"
+    },
+    "description": "Bright red fruit, earthy spice, and a silky finish.",
+    "tastingNotes": [
+      "red cherry",
+      "rooibos",
+      "sweet spice"
+    ],
+    "pairings": [
+      "roast chicken",
+      "mushroom risotto",
+      "charred vegetables"
+    ],
+    "images": [
+      {
+        "url": "/images/wines/discounted.png",
+        "alt": "Discounted wine bottle"
+      }
+    ],
+    "availability": {
+      "status": "inStock",
+      "inStock": 54
+    },
+    "tags": [
+      {
+        "id": "tag-cape-blend",
+        "label": "Cape Blend",
+        "type": "style"
+      },
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-discounted",
+        "label": "Discounted"
+      }
+    ],
+    "isFeatured": false,
+    "relatedWines": [
+      "wine-rubicon-2018"
+    ]
+  }
+}
