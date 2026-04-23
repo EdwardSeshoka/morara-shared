@@ -1,0 +1,282 @@
+{
+  "data": {
+    "tag": {
+      "id": "tag-stellenbosch",
+      "label": "Stellenbosch",
+      "type": "region"
+    },
+    "badge": {
+      "id": "badge-exclusive",
+      "label": "Exclusive"
+    },
+    "image": {
+      "url": "/images/wines/rubicon-2018.png",
+      "alt": "Rubicon 2018 bottle"
+    },
+    "price": {
+      "amount": 560,
+      "currency": "ZAR",
+      "display": "R560",
+      "isDiscounted": false,
+      "originalAmount": null,
+      "originalDisplay": null
+    },
+    "featuredMeta": {
+      "label": "THIS WEEK'S PICK",
+      "priority": 1,
+      "startAt": "2026-03-01T00:00:00Z",
+      "endAt": "2026-03-31T23:59:59Z"
+    },
+    "wineCard": {
+      "id": "wine-rubicon-2018",
+      "slug": "rubicon-2018",
+      "name": "Rubicon",
+      "vintage": 2018,
+      "subtitle": "Bordeaux Blend • Stellenbosch",
+      "region": "Stellenbosch",
+      "price": {
+        "amount": 560,
+        "currency": "ZAR",
+        "display": "R560",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/rubicon-2018.png",
+        "alt": "Rubicon 2018 bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-featured",
+          "label": "Featured"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "THIS WEEK'S PICK",
+        "priority": 1,
+        "startAt": "2026-03-01T00:00:00Z",
+        "endAt": "2026-03-31T23:59:59Z"
+      }
+    },
+    "wineDetail": {
+      "id": "wine-rubicon-2018",
+      "slug": "rubicon-2018",
+      "name": "Rubicon",
+      "vintage": 2018,
+      "region": "Stellenbosch",
+      "blend": "Bordeaux Blend",
+      "winery": "Meerlust Estate",
+      "price": {
+        "amount": 560,
+        "currency": "ZAR",
+        "display": "R560",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "description": "A flagship Stellenbosch blend with layered dark fruit and cedar spice.",
+      "tastingNotes": [
+        "blackcurrant",
+        "cassis",
+        "cedar",
+        "graphite"
+      ],
+      "pairings": [
+        "roast lamb",
+        "chargrilled steak",
+        "aged cheddar"
+      ],
+      "images": [
+        {
+          "url": "/images/wines/rubicon-2018.png",
+          "alt": "Rubicon 2018 bottle"
+        }
+      ],
+      "availability": {
+        "status": "inStock",
+        "inStock": 24
+      },
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-featured",
+          "label": "Featured"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "THIS WEEK'S PICK",
+        "priority": 1,
+        "startAt": "2026-03-01T00:00:00Z",
+        "endAt": "2026-03-31T23:59:59Z"
+      },
+      "relatedWines": [
+        "wine-kanonkop-2019"
+      ]
+    },
+    "storyCard": {
+      "id": "story-cabernet-guide",
+      "slug": "cabernet-guide",
+      "title": "A Modern Guide to Cabernet in the Cape",
+      "summary": "How the Cape's Cabernet Sauvignon style has evolved over the last decade.",
+      "image": {
+        "url": "/images/stories/cabernet-guide.png",
+        "alt": "Cabernet guide hero image"
+      },
+      "publishedAt": "2026-02-18T08:00:00Z",
+      "tags": [
+        {
+          "id": "tag-cabernet-sauvignon",
+          "label": "Cabernet Sauvignon",
+          "type": "varietal"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-staff-pick",
+          "label": "Staff Pick"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "EDITOR'S CHOICE",
+        "priority": 2,
+        "startAt": "2026-03-05T00:00:00Z",
+        "endAt": "2026-03-20T23:59:59Z"
+      }
+    },
+    "storyDetail": {
+      "id": "story-cabernet-guide",
+      "slug": "cabernet-guide",
+      "title": "A Modern Guide to Cabernet in the Cape",
+      "subtitle": "From classic Stellenbosch to cool-climate finesse.",
+      "author": "Lerato Maseko",
+      "publishedAt": "2026-02-18T08:00:00Z",
+      "heroImage": {
+        "url": "/images/stories/cabernet-guide.png",
+        "alt": "Cabernet guide hero image"
+      },
+      "sections": [
+        {
+          "type": "text",
+          "content": "Cabernet in the Cape is defined by sunshine, cooling ocean breezes, and a new generation of cellar masters."
+        },
+        {
+          "type": "quote",
+          "content": "We chase freshness as much as power.",
+          "attribution": "Winemaker, Stellenbosch"
+        }
+      ],
+      "tags": [
+        {
+          "id": "tag-cabernet-sauvignon",
+          "label": "Cabernet Sauvignon",
+          "type": "varietal"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-staff-pick",
+          "label": "Staff Pick"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "EDITOR'S CHOICE",
+        "priority": 2,
+        "startAt": "2026-03-05T00:00:00Z",
+        "endAt": "2026-03-20T23:59:59Z"
+      },
+      "relatedWines": [
+        "wine-rubicon-2018"
+      ],
+      "relatedStories": [
+        "story-winemaking-process"
+      ]
+    },
+    "collectionCard": {
+      "id": "collection-bordeaux-blends",
+      "slug": "bordeaux-blends",
+      "title": "Bordeaux Blends",
+      "description": "Layered reds inspired by the great Bordeaux houses.",
+      "coverImage": {
+        "url": "/images/collections/bordeaux-blends.png",
+        "alt": "Bordeaux blends collection cover"
+      },
+      "itemCount": 6,
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-exclusive",
+          "label": "Exclusive"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "ICONIC COLLECTION",
+        "priority": 1,
+        "startAt": "2026-03-01T00:00:00Z",
+        "endAt": "2026-03-31T23:59:59Z"
+      }
+    },
+    "collectionDetail": {
+      "id": "collection-bordeaux-blends",
+      "slug": "bordeaux-blends",
+      "title": "Bordeaux Blends",
+      "description": "Layered reds inspired by the great Bordeaux houses.",
+      "coverImage": {
+        "url": "/images/collections/bordeaux-blends.png",
+        "alt": "Bordeaux blends collection cover"
+      },
+      "itemCount": 6,
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-exclusive",
+          "label": "Exclusive"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "ICONIC COLLECTION",
+        "priority": 1,
+        "startAt": "2026-03-01T00:00:00Z",
+        "endAt": "2026-03-31T23:59:59Z"
+      },
+      "wineIds": [
+        "wine-rubicon-2018",
+        "wine-kanonkop-2019"
+      ],
+      "storyIds": [
+        "story-cabernet-guide"
+      ]
+    }
+  }
+}

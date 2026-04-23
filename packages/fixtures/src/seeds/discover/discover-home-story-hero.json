@@ -1,0 +1,57 @@
+{
+  "data": {
+    "hero": {
+      "entityType": "story",
+      "entityId": "story-cabernet-guide",
+      "label": "EDITOR'S CHOICE",
+      "tags": [
+        {
+          "id": "tag-weekend-reads",
+          "label": "Weekend Reads",
+          "type": "editorial"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "this-week-in-wine",
+        "title": "This Week in Wine",
+        "type": "wineCarousel",
+        "wineIds": [
+          "wine-rubicon-2018",
+          "wine-kanonkop-2019",
+          "wine-old-vine-chenin-2022"
+        ]
+      },
+      {
+        "id": "stories",
+        "title": "Stories",
+        "type": "storyCarousel",
+        "isFeatured": true,
+        "tags": [
+          {
+            "id": "tag-weekend-reads",
+            "label": "Weekend Reads",
+            "type": "editorial"
+          }
+        ],
+        "storyIds": [
+          "story-cabernet-guide",
+          "story-weekend-pairings"
+        ]
+      },
+      {
+        "id": "collections",
+        "title": "Collections",
+        "type": "collectionCarousel",
+        "collectionIds": [
+          "collection-bordeaux-blends"
+        ]
+      }
+    ],
+    "meta": {
+      "generatedAt": "2026-03-13T07:00:00Z",
+      "version": "v1"
+    }
+  }
+}

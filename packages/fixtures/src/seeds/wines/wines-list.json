@@ -1,0 +1,245 @@
+{
+  "data": [
+    {
+      "id": "wine-rubicon-2018",
+      "slug": "rubicon-2018",
+      "name": "Rubicon",
+      "vintage": 2018,
+      "subtitle": "Bordeaux Blend • Stellenbosch",
+      "region": "Stellenbosch",
+      "price": {
+        "amount": 560,
+        "currency": "ZAR",
+        "display": "R560",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/rubicon-2018.png",
+        "alt": "Rubicon 2018 bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        },
+        {
+          "id": "tag-stellenbosch",
+          "label": "Stellenbosch",
+          "type": "region"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-featured",
+          "label": "Featured"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "THIS WEEK'S PICK",
+        "priority": 1,
+        "startAt": "2026-03-01T00:00:00Z",
+        "endAt": "2026-03-31T23:59:59Z"
+      }
+    },
+    {
+      "id": "wine-kanonkop-2019",
+      "slug": "kanonkop-2019",
+      "name": "Kanonkop Paul Sauer",
+      "vintage": 2019,
+      "subtitle": "Bordeaux Blend • Stellenbosch",
+      "region": "Stellenbosch",
+      "price": {
+        "amount": 780,
+        "currency": "ZAR",
+        "display": "R780",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/kanonkop-2019.png",
+        "alt": "Kanonkop 2019 bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-bordeaux-blend",
+          "label": "Bordeaux Blend",
+          "type": "style"
+        },
+        {
+          "id": "tag-stellenbosch",
+          "label": "Stellenbosch",
+          "type": "region"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-exclusive",
+          "label": "Exclusive"
+        }
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "wine-old-vine-chenin-2022",
+      "slug": "old-vine-chenin-2022",
+      "name": "Old Vine Chenin Blanc",
+      "vintage": 2022,
+      "subtitle": "Chenin Blanc • Swartland",
+      "region": "Swartland",
+      "price": {
+        "amount": 320,
+        "currency": "ZAR",
+        "display": "R320",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/chenin-2022.png",
+        "alt": "Old Vine Chenin 2022 bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-chenin-blanc",
+          "label": "Chenin Blanc",
+          "type": "varietal"
+        },
+        {
+          "id": "tag-swartland",
+          "label": "Swartland",
+          "type": "region"
+        },
+        {
+          "id": "tag-old-vine",
+          "label": "Old Vine",
+          "type": "theme"
+        }
+      ],
+      "badges": [],
+      "isFeatured": false
+    },
+    {
+      "id": "wine-creation-chardonnay-2023",
+      "slug": "creation-chardonnay-2023",
+      "name": "Creation Chardonnay",
+      "vintage": 2023,
+      "subtitle": "Chardonnay • Hemel-en-Aarde",
+      "region": "Hemel-en-Aarde",
+      "price": {
+        "amount": 340,
+        "currency": "ZAR",
+        "display": "R340",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/chardonnay-2023.png",
+        "alt": "Creation Chardonnay 2023 bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-hemel-en-aarde",
+          "label": "Hemel-en-Aarde",
+          "type": "region"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-new",
+          "label": "New Arrival"
+        }
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "wine-sold-out-2017",
+      "slug": "sold-out-2017",
+      "name": "Reserve Pinotage",
+      "vintage": 2017,
+      "subtitle": "Pinotage • Stellenbosch",
+      "region": "Stellenbosch",
+      "price": {
+        "amount": 680,
+        "currency": "ZAR",
+        "display": "R680",
+        "isDiscounted": false,
+        "originalAmount": null,
+        "originalDisplay": null
+      },
+      "image": {
+        "url": "/images/wines/sold-out.png",
+        "alt": "Sold out wine bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-pinotage",
+          "label": "Pinotage",
+          "type": "varietal"
+        },
+        {
+          "id": "tag-stellenbosch",
+          "label": "Stellenbosch",
+          "type": "region"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-sold-out",
+          "label": "Sold Out"
+        }
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "wine-discounted-2020",
+      "slug": "discounted-2020",
+      "name": "Cape Blend Reserve",
+      "vintage": 2020,
+      "subtitle": "Cape Blend • Stellenbosch",
+      "region": "Stellenbosch",
+      "price": {
+        "amount": 420,
+        "currency": "ZAR",
+        "display": "R420",
+        "isDiscounted": true,
+        "originalAmount": 520,
+        "originalDisplay": "R520"
+      },
+      "image": {
+        "url": "/images/wines/discounted.png",
+        "alt": "Discounted wine bottle"
+      },
+      "tags": [
+        {
+          "id": "tag-cape-blend",
+          "label": "Cape Blend",
+          "type": "style"
+        },
+        {
+          "id": "tag-stellenbosch",
+          "label": "Stellenbosch",
+          "type": "region"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-discounted",
+          "label": "Discounted"
+        }
+      ],
+      "isFeatured": false
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "pageSize": 20,
+    "totalItems": 6,
+    "totalPages": 1
+  }
+}

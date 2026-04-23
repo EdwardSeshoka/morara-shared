@@ -42,6 +42,12 @@ registry=https://registry.npmjs.org/
 
 Fixtures are organized by API endpoint/use-case (for example `list-wines.json`, `featured-events.json`) rather than by entity tables or frontend view state. This keeps seed data response-like, domain-oriented, and reusable across backend seeding and frontend local doubles.
 
+Morara-specific canonical dev/deploy seed data now also lives here:
+
+- `packages/fixtures/src/seeds/morara/public-wines.json`
+
+Consumer repos can sync from that file to keep backend deploy seeding and frontend local doubles aligned from one source of truth.
+
 ## Getting started
 
 ```bash

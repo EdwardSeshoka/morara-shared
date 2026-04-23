@@ -1,0 +1,70 @@
+{
+  "data": {
+    "id": "story-cabernet-guide",
+    "slug": "cabernet-guide",
+    "title": "A Modern Guide to Cabernet in the Cape",
+    "subtitle": "From classic Stellenbosch to cool-climate finesse.",
+    "author": "Lerato Maseko",
+    "publishedAt": "2026-02-18T08:00:00Z",
+    "heroImage": {
+      "url": "/images/stories/cabernet-guide.png",
+      "alt": "Cabernet guide hero image"
+    },
+    "sections": [
+      {
+        "type": "text",
+        "content": "Cabernet in the Cape is defined by sunshine, cooling ocean breezes, and a new generation of cellar masters."
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/images/stories/cabernet-guide.png",
+          "alt": "Cabernet guide hero image"
+        },
+        "caption": "Mountain slopes and maritime influence shape the fruit."
+      },
+      {
+        "type": "quote",
+        "content": "We chase freshness as much as power.",
+        "attribution": "Winemaker, Stellenbosch"
+      },
+      {
+        "type": "callout",
+        "title": "Cellar Tip",
+        "content": "Decant for 30 minutes to soften youthful tannins."
+      }
+    ],
+    "tags": [
+      {
+        "id": "tag-cabernet-sauvignon",
+        "label": "Cabernet Sauvignon",
+        "type": "varietal"
+      },
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-staff-pick",
+        "label": "Staff Pick"
+      }
+    ],
+    "isFeatured": true,
+    "featuredMeta": {
+      "label": "EDITOR'S CHOICE",
+      "priority": 2,
+      "startAt": "2026-03-05T00:00:00Z",
+      "endAt": "2026-03-20T23:59:59Z"
+    },
+    "relatedWines": [
+      "wine-rubicon-2018",
+      "wine-kanonkop-2019"
+    ],
+    "relatedStories": [
+      "story-winemaking-process"
+    ]
+  }
+}

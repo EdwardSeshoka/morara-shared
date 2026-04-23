@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": "story-winemaking-process",
+    "slug": "winemaking-process",
+    "title": "Inside the Cellar: The Winemaking Process",
+    "subtitle": "From grape to glass in the Cape Winelands.",
+    "author": "Thabo Nyathi",
+    "publishedAt": "2026-02-25T09:30:00Z",
+    "heroImage": {
+      "url": "/images/stories/winemaking.png",
+      "alt": "Winemaking process hero image"
+    },
+    "sections": [
+      {
+        "type": "text",
+        "content": "Harvest decisions start before sunrise, balancing sugar and acidity for freshness."
+      },
+      {
+        "type": "callout",
+        "title": "Key Step",
+        "content": "Gentle extraction preserves aromatics in cool-climate fruit."
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/images/stories/winemaking.png",
+          "alt": "Winemaking process hero image"
+        },
+        "caption": "Fermentation vessels across the cellar."
+      }
+    ],
+    "tags": [
+      {
+        "id": "tag-heritage",
+        "label": "Heritage",
+        "type": "theme"
+      }
+    ],
+    "badges": [],
+    "isFeatured": false,
+    "relatedWines": [
+      "wine-old-vine-chenin-2022"
+    ],
+    "relatedStories": [
+      "story-cabernet-guide"
+    ]
+  }
+}

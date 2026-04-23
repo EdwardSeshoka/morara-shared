@@ -1,0 +1,45 @@
+{
+  "data": {
+    "id": "collection-bordeaux-blends",
+    "slug": "bordeaux-blends",
+    "title": "Bordeaux Blends",
+    "description": "Layered reds inspired by the great Bordeaux houses.",
+    "coverImage": {
+      "url": "/images/collections/bordeaux-blends.png",
+      "alt": "Bordeaux blends collection cover"
+    },
+    "itemCount": 2,
+    "tags": [
+      {
+        "id": "tag-bordeaux-blend",
+        "label": "Bordeaux Blend",
+        "type": "style"
+      },
+      {
+        "id": "tag-icons",
+        "label": "Icons",
+        "type": "collectionType"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-exclusive",
+        "label": "Exclusive"
+      }
+    ],
+    "isFeatured": true,
+    "featuredMeta": {
+      "label": "ICONIC COLLECTION",
+      "priority": 1,
+      "startAt": "2026-03-01T00:00:00Z",
+      "endAt": "2026-03-31T23:59:59Z"
+    },
+    "wineIds": [
+      "wine-rubicon-2018",
+      "wine-kanonkop-2019"
+    ],
+    "storyIds": [
+      "story-cabernet-guide"
+    ]
+  }
+}

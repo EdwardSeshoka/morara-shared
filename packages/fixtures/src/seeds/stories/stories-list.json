@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "id": "story-cabernet-guide",
+      "slug": "cabernet-guide",
+      "title": "A Modern Guide to Cabernet in the Cape",
+      "summary": "How the Cape's Cabernet Sauvignon style has evolved over the last decade.",
+      "image": {
+        "url": "/images/stories/cabernet-guide.png",
+        "alt": "Cabernet guide hero image"
+      },
+      "publishedAt": "2026-02-18T08:00:00Z",
+      "tags": [
+        {
+          "id": "tag-cabernet-sauvignon",
+          "label": "Cabernet Sauvignon",
+          "type": "varietal"
+        },
+        {
+          "id": "tag-weekend-reads",
+          "label": "Weekend Reads",
+          "type": "editorial"
+        }
+      ],
+      "badges": [
+        {
+          "id": "badge-staff-pick",
+          "label": "Staff Pick"
+        }
+      ],
+      "isFeatured": true,
+      "featuredMeta": {
+        "label": "EDITOR'S CHOICE",
+        "priority": 2,
+        "startAt": "2026-03-05T00:00:00Z",
+        "endAt": "2026-03-20T23:59:59Z"
+      }
+    },
+    {
+      "id": "story-winemaking-process",
+      "slug": "winemaking-process",
+      "title": "Inside the Cellar: The Winemaking Process",
+      "summary": "From grape to glass, a step-by-step look at a South African harvest.",
+      "image": {
+        "url": "/images/stories/winemaking.png",
+        "alt": "Winemaking process hero image"
+      },
+      "publishedAt": "2026-02-25T09:30:00Z",
+      "tags": [
+        {
+          "id": "tag-heritage",
+          "label": "Heritage",
+          "type": "theme"
+        }
+      ],
+      "badges": [],
+      "isFeatured": false
+    },
+    {
+      "id": "story-weekend-pairings",
+      "slug": "weekend-pairings",
+      "title": "Weekend Pairings for Braai Night",
+      "summary": "Three bold reds that shine over open flames.",
+      "image": {
+        "url": "/images/stories/weekend-reads.png",
+        "alt": "Weekend reads hero image"
+      },
+      "publishedAt": "2026-03-02T07:15:00Z",
+      "tags": [
+        {
+          "id": "tag-weekend-reads",
+          "label": "Weekend Reads",
+          "type": "editorial"
+        }
+      ],
+      "badges": [],
+      "isFeatured": false
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "pageSize": 20,
+    "totalItems": 3,
+    "totalPages": 1
+  }
+}

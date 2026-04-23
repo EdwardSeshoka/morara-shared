@@ -1,0 +1,11 @@
+{
+  "data": {
+    "hero": null,
+    "sections": [],
+    "meta": {
+      "generatedAt": "2026-03-13T07:00:00Z",
+      "version": "v1",
+      "notes": "Empty discover payload with optional sections omitted."
+    }
+  }
+}

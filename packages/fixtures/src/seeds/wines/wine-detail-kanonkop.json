@@ -1,0 +1,73 @@
+{
+  "data": {
+    "id": "wine-kanonkop-2019",
+    "slug": "kanonkop-2019",
+    "name": "Kanonkop Paul Sauer",
+    "vintage": 2019,
+    "region": "Stellenbosch",
+    "blend": "Bordeaux Blend",
+    "winery": "Kanonkop Wine Estate",
+    "price": {
+      "amount": 780,
+      "currency": "ZAR",
+      "display": "R780",
+      "isDiscounted": false,
+      "originalAmount": null,
+      "originalDisplay": null
+    },
+    "description": "Rich cassis, tobacco leaf, and a long graphite finish from a classic Stellenbosch icon.",
+    "tastingNotes": [
+      "cassis",
+      "tobacco",
+      "dark cherry",
+      "graphite"
+    ],
+    "pairings": [
+      "slow-braised oxtail",
+      "beef ribeye",
+      "mature hard cheese"
+    ],
+    "images": [
+      {
+        "url": "/images/wines/kanonkop-2019.png",
+        "alt": "Kanonkop 2019 bottle"
+      }
+    ],
+    "availability": {
+      "status": "inStock",
+      "inStock": 12
+    },
+    "tags": [
+      {
+        "id": "tag-bordeaux-blend",
+        "label": "Bordeaux Blend",
+        "type": "style"
+      },
+      {
+        "id": "tag-stellenbosch",
+        "label": "Stellenbosch",
+        "type": "region"
+      },
+      {
+        "id": "tag-icons",
+        "label": "Icons",
+        "type": "collectionType"
+      }
+    ],
+    "badges": [
+      {
+        "id": "badge-exclusive",
+        "label": "Exclusive"
+      },
+      {
+        "id": "badge-limited",
+        "label": "Limited Stock"
+      }
+    ],
+    "isFeatured": false,
+    "relatedWines": [
+      "wine-rubicon-2018",
+      "wine-old-vine-chenin-2022"
+    ]
+  }
+}

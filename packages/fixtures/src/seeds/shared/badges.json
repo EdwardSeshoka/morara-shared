@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "badge-featured",
+      "label": "Featured"
+    },
+    {
+      "id": "badge-exclusive",
+      "label": "Exclusive"
+    },
+    {
+      "id": "badge-staff-pick",
+      "label": "Staff Pick"
+    },
+    {
+      "id": "badge-limited",
+      "label": "Limited Stock"
+    },
+    {
+      "id": "badge-new",
+      "label": "New Arrival"
+    },
+    {
+      "id": "badge-sold-out",
+      "label": "Sold Out"
+    },
+    {
+      "id": "badge-discounted",
+      "label": "Discounted"
+    }
+  ]
+}
