@@ -7,15 +7,17 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
     "clean": "find . -name dist -type d -prune -exec rm -rf {} +",
     "lint": "npm run lint --workspaces --if-present",
-    "release:version": "node ./scripts/release-version.mjs --print",
-    "release:version:check": "node ./scripts/release-version.mjs",
+    "release": "npm run build && npm publish --workspaces",
     "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces",
-    "version:sync": "npm version --workspaces --include-workspace-root=true --no-git-tag-version"
+    "version:packages": "changeset version && npm install --package-lock-only --ignore-scripts"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.6",
     "typescript": "^5.8.2"
   }
 }
