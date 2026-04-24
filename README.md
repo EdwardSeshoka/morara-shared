@@ -27,7 +27,9 @@ Shared internal TypeScript packages for Morara.
 
 - Packages publish to GitHub Packages (`https://npm.pkg.github.com`) under the `@edwardseshoka/*` scope.
 - GitHub Packages is used instead of public npmjs so shared packages stay internal and access is controlled via GitHub permissions.
-- CI publishes only from `main` using Changesets and the repository `GITHUB_TOKEN`; pull request workflows run validation only.
+- CI publishes only from `main` using Changesets; pull request workflows run validation only.
+- The release workflow uses `CHANGESETS_TOKEN` when present, otherwise it falls back to the repository `GITHUB_TOKEN`.
+- If using `GITHUB_TOKEN`, enable GitHub's repository setting that allows GitHub Actions to create pull requests.
 - The release workflow builds all workspaces before publishing, and each published package runs `prepack` so the published tarball contains compiled `dist` output.
 - Consumers should configure npm scope routing:
 
