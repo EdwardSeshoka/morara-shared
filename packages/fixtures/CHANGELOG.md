@@ -1,5 +1,11 @@
 # @edwardseshoka/fixtures
 
+## 1.1.0
+
+### Minor Changes
+
+- 7cfa663: Introduce publishing script
+
 ## 1.0.0
 
 ### Major Changes
