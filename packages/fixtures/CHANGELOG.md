@@ -1,5 +1,11 @@
 # @edwardseshoka/fixtures
 
+## 1.2.1
+
+### Patch Changes
+
+- 9c741ff: Fix the published fixtures package dependency on contracts so consumers install the published contracts package instead of looking for a local sibling folder.
+
 ## 1.2.0
 
 ### Minor Changes
