@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "placement": "hero",
+    "contentType": "wine",
+    "contentId": "rubicon-2018",
+    "priority": 1,
+    "label": "THIS WEEK'S PICK",
+    "volume": 47,
+    "isActive": true,
+    "ctas": [
+      {
+        "id": "request_taste",
+        "label": "Request a taste",
+        "style": "primary"
+      },
+      {
+        "id": "add_to_cellar",
+        "label": "Add to cellar",
+        "style": "icon"
+      },
+      {
+        "id": "open_story",
+        "label": "Open the story",
+        "style": "secondary"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "this_week_in_wine",
+      "type": "editorial_cards",
+      "eyebrow": "WEEKLY",
+      "title": "This Week in Wine",
+      "action": {
+        "label": "See all"
+      },
+      "itemRefs": [
+        {
+          "contentType": "new_arrival",
+          "contentId": "article_old_vines_new_voices",
+          "priority": 1
+        },
+        {
+          "contentType": "article",
+          "contentId": "article_valley_that_taught_cape",
+          "priority": 2
+        },
+        {
+          "contentType": "guide",
+          "contentId": "guide_how_to_read_cape_label",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "id": "travel_by_the_glass",
+      "type": "region_cards",
+      "eyebrow": "REGIONS",
+      "title": "Travel by the glass",
+      "itemRefs": [
+        {
+          "contentType": "region",
+          "contentId": "region_stellenbosch",
+          "priority": 1
+        },
+        {
+          "contentType": "region",
+          "contentId": "region_swartland",
+          "priority": 2
+        },
+        {
+          "contentType": "region",
+          "contentId": "region_franschhoek",
+          "priority": 3
+        },
+        {
+          "contentType": "region",
+          "contentId": "region_hemel_en_aarde",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "type": "producer_cards",
+      "eyebrow": "PRODUCERS",
+      "title": "Producers to know",
+      "itemRefs": [
+        {
+          "contentType": "estate",
+          "contentId": "estate_meerlust",
+          "priority": 1
+        },
+        {
+          "contentType": "estate",
+          "contentId": "estate_kanonkop",
+          "priority": 2
+        },
+        {
+          "contentType": "estate",
+          "contentId": "estate_sadie_family",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "id": "the_room",
+      "type": "room_activity",
+      "eyebrow": "THE ROOM",
+      "title": "A quieter kind of wine social.",
+      "description": "Notes from sommeliers, farmers, collectors and curious drinkers.\nNo feeds, no scores out of 100 - just the bottles people actually opened this week.",
+      "actions": [
+        {
+          "label": "Join the room"
+        },
+        {
+          "label": "See contributors"
+        }
+      ],
+      "itemRefs": [
+        {
+          "contentType": "room_activity",
+          "contentId": "activity_sarah_kanonkop_checkin",
+          "priority": 1
+        },
+        {
+          "contentType": "room_activity",
+          "contentId": "activity_james_rubicon_review",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "pouring_tonight",
+      "type": "event_cards",
+      "eyebrow": "NEAR YOU",
+      "title": "Pouring tonight",
+      "itemRefs": [
+        {
+          "contentType": "event",
+          "contentId": "event_swartland_six_ways",
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}

@@ -25,11 +25,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "dependencies": {
+    "@edwardseshoka/contracts": "file:../contracts"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json && rm -rf dist/seeds && cp -R src/seeds dist/seeds",
     "lint": "tsc -p tsconfig.json --noEmit",
     "prepack": "npm run build",
-    "test": "node --test",
+    "test": "npm run build && node --test",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   }
 }

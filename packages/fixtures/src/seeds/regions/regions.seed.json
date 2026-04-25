@@ -1,0 +1,42 @@
+[
+  {
+    "id": "region_stellenbosch",
+    "name": "Stellenbosch",
+    "country": "South Africa",
+    "province": "Western Cape",
+    "producerCount": 142,
+    "wineCount": 1820,
+    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Historic Cape vineyards shaped by mountain air and serious cellar craft."
+  },
+  {
+    "id": "region_swartland",
+    "name": "Swartland",
+    "country": "South Africa",
+    "province": "Western Cape",
+    "producerCount": 68,
+    "wineCount": 840,
+    "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "description": "Old vines, dry farming, and a new generation of expressive Cape winemaking."
+  },
+  {
+    "id": "region_franschhoek",
+    "name": "Franschhoek",
+    "country": "South Africa",
+    "province": "Western Cape",
+    "producerCount": 54,
+    "wineCount": 612,
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "description": "A valley of cellar doors, restaurants, and polished mountain-grown wines."
+  },
+  {
+    "id": "region_hemel_en_aarde",
+    "name": "Hemel-en-Aarde",
+    "country": "South Africa",
+    "province": "Western Cape",
+    "producerCount": 31,
+    "wineCount": 287,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Cool maritime vineyards known for precise Pinot Noir and Chardonnay."
+  }
+]

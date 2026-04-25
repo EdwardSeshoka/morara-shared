@@ -1,0 +1,17 @@
+[
+  {
+    "id": "event_swartland_six_ways",
+    "title": "Swartland, Six Ways",
+    "eventType": "sommelier_led",
+    "eventTypeLabel": "SOMMELIER-LED",
+    "startDateTime": "2026-04-25T17:30:00.000Z",
+    "startTimeLabel": "19:30",
+    "venueName": "Salsify",
+    "location": "Kloof Street",
+    "seatsAvailable": 4,
+    "regionId": "region_swartland",
+    "wineIds": ["palladius-2010", "boekenhoutskloof-syrah-2020"],
+    "producerIds": ["estate_sadie_family"],
+    "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
+  }
+]

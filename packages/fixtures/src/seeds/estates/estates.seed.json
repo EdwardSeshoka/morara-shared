@@ -1,0 +1,38 @@
+[
+  {
+    "id": "estate_meerlust",
+    "name": "Meerlust Estate",
+    "regionId": "region_stellenbosch",
+    "imageUrl": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1200&q=80",
+    "description": "A historic Stellenbosch estate best known for Rubicon and age-worthy Cape blends.",
+    "wineIds": ["rubicon-2018"],
+    "wineCount": 18
+  },
+  {
+    "id": "estate_kanonkop",
+    "name": "Kanonkop Estate",
+    "regionId": "region_stellenbosch",
+    "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+    "description": "A benchmark Cape producer with a deep reputation for Pinotage and structured reds.",
+    "wineIds": ["featured-1"],
+    "wineCount": 22
+  },
+  {
+    "id": "estate_sadie_family",
+    "name": "Sadie Family Wines",
+    "regionId": "region_swartland",
+    "imageUrl": "https://images.unsplash.com/photo-1535869462434-f92cc30bf40c?auto=format&fit=crop&w=1200&q=80",
+    "description": "Swartland-focused wines built around old vines, texture, and restrained power.",
+    "wineIds": ["palladius-2010"],
+    "wineCount": 11
+  },
+  {
+    "id": "estate_boekenhoutskloof",
+    "name": "Boekenhoutskloof",
+    "regionId": "region_franschhoek",
+    "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1200&q=80",
+    "description": "Franschhoek producer known for expressive Syrah, Cabernet, and layered reds.",
+    "wineIds": ["boekenhoutskloof-syrah-2020"],
+    "wineCount": 16
+  }
+]
