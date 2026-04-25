@@ -26,7 +26,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@edwardseshoka/contracts": "file:../contracts"
+    "@edwardseshoka/contracts": "^1.2.0"
   },
   "scripts": {
     "prebuild": "npm run build --workspace @edwardseshoka/contracts",
