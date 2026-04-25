@@ -1,0 +1,16 @@
+[
+  {
+    "id": "user_sarah_mitchell",
+    "displayName": "Sarah Mitchell",
+    "initials": "SM",
+    "role": "enthusiast",
+    "avatarColor": "#7A2F45"
+  },
+  {
+    "id": "user_james_voss",
+    "displayName": "James Voss",
+    "initials": "JV",
+    "role": "sommelier",
+    "avatarColor": "#6B1F3A"
+  }
+]

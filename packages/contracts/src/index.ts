@@ -9,3 +9,6 @@ export interface PaginationDTO {
   totalItems: number;
   totalPages: number;
 }
+
+export * from "./discover.js";
+export * from "./wines.js";

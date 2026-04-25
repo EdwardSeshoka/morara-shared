@@ -1,0 +1,22 @@
+[
+  {
+    "id": "activity_sarah_kanonkop_checkin",
+    "type": "check_in",
+    "userId": "user_sarah_mitchell",
+    "wineId": "featured-1",
+    "rating": 4.5,
+    "note": "Pouring this at The Pot Luck Club tonight. Still singing.",
+    "createdAt": "2026-04-24T18:30:00.000Z",
+    "relativeTimeLabel": "2H AGO"
+  },
+  {
+    "id": "activity_james_rubicon_review",
+    "type": "review",
+    "userId": "user_james_voss",
+    "wineId": "rubicon-2018",
+    "rating": 5,
+    "note": "Closed and brooding today - decant three hours and you get graphite, violet and that Meerlust spine.",
+    "createdAt": "2026-04-24T15:30:00.000Z",
+    "relativeTimeLabel": "5H AGO"
+  }
+]

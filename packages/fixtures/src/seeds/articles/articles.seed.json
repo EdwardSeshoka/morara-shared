@@ -1,0 +1,29 @@
+[
+  {
+    "id": "article_old_vines_new_voices",
+    "contentType": "new_arrival",
+    "categoryLabel": "NEW ARRIVAL",
+    "title": "Old Vines, New Voices",
+    "description": "Five Swartland winemakers on working with vineyards older than they are.",
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read story"
+  },
+  {
+    "id": "article_valley_that_taught_cape",
+    "contentType": "article",
+    "categoryLabel": "EDITORIAL",
+    "title": "The Valley That Taught the Cape to Pour",
+    "description": "A weekend in Franschhoek, through the eyes of three sommeliers.",
+    "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read editorial"
+  },
+  {
+    "id": "guide_how_to_read_cape_label",
+    "contentType": "guide",
+    "categoryLabel": "GUIDE",
+    "title": "How to Read a Cape Label",
+    "description": "Estate, ward, cultivar - a short field manual.",
+    "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Open guide"
+  }
+]
