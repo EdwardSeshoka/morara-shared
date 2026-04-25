@@ -29,10 +29,13 @@
     "@edwardseshoka/contracts": "file:../contracts"
   },
   "scripts": {
+    "prebuild": "npm run build --workspace @edwardseshoka/contracts",
     "build": "tsc -p tsconfig.json && rm -rf dist/seeds && cp -R src/seeds dist/seeds",
+    "prelint": "npm run build --workspace @edwardseshoka/contracts",
     "lint": "tsc -p tsconfig.json --noEmit",
     "prepack": "npm run build",
     "test": "npm run build && node --test",
+    "pretypecheck": "npm run build --workspace @edwardseshoka/contracts",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   }
 }
