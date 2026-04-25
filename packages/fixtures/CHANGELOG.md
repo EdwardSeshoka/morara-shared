@@ -1,5 +1,11 @@
 # @edwardseshoka/fixtures
 
+## 1.2.0
+
+### Minor Changes
+
+- cc5799c: Add Discover Home and public Wines contracts, curation seeds, and seed-to-response mapping helpers.
+
 ## 1.1.0
 
 ### Minor Changes
