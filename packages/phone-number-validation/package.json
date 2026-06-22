@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/phone-number-validation",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shared international phone-number parsing and validation for Morara.",
   "license": "UNLICENSED",
   "repository": {
