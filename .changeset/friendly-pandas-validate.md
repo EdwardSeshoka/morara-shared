@@ -2,4 +2,4 @@
 "@edwardseshoka/foundation": minor
 ---
 
-Add shared email and South African mobile validation utilities for frontend and backend consumers.
+Add dependency-free shared email validation.

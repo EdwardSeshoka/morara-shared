@@ -5,6 +5,7 @@ Shared internal TypeScript packages for Morara.
 ## Packages
 
 - `@edwardseshoka/foundation` — common protocols and abstractions
+- `@edwardseshoka/phone-number-validation` — international phone-number validation and normalization
 - `@edwardseshoka/contracts` — DTOs and shared contracts
 - `@edwardseshoka/fixtures` — shared seed/fixture JSON for API scenarios
 
