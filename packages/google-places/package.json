@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/google-places",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Backend Google Places API adapter for Morara.",
   "license": "UNLICENSED",
   "repository": {
@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@edwardseshoka/foundation": "^1.2.0",
-    "@edwardseshoka/places": "0.1.0"
+    "@edwardseshoka/places": "0.2.0"
   }
 }
