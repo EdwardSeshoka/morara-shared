@@ -1,10 +1,21 @@
-import { GooglePlacesError } from "./GooglePlacesError.js";
+import { Mapper } from "@edwardseshoka/foundation";
 import type {
-  GooglePlaceAddressComponent,
-  GooglePlaceDetails,
-  GooglePlaceDetailsRequest,
-  GooglePlaceSuggestion,
-  GooglePlacesAutocompleteRequest,
+  GetPlaceInput,
+  Place,
+  PlaceSuggestion,
+  SearchPlacesInput,
+} from "@edwardseshoka/places";
+
+import { GooglePlacesError } from "./GooglePlacesError.js";
+import {
+  GooglePlaceEntityMapper,
+  type GooglePlaceResponseDTO,
+} from "./GooglePlaceEntityMapper.js";
+import {
+  GooglePlaceSuggestionEntityMapper,
+  type GooglePlaceSuggestionResponseDTO,
+} from "./GooglePlaceSuggestionEntityMapper.js";
+import type {
   GooglePlacesClientConfiguration,
   GooglePlacesFetch,
 } from "./GooglePlacesTypes.js";
@@ -39,6 +50,8 @@ export class GooglePlacesClient {
   private readonly apiKey: string;
   private readonly fetch: GooglePlacesFetch;
   private readonly baseUrl: string;
+  private readonly suggestionMapper = new GooglePlaceSuggestionEntityMapper();
+  private readonly placeMapper: GooglePlaceEntityMapper;
 
   constructor(configuration: GooglePlacesClientConfiguration) {
     if (configuration.apiKey.trim().length === 0) {
@@ -48,11 +61,14 @@ export class GooglePlacesClient {
     this.apiKey = configuration.apiKey;
     this.fetch = configuration.fetch ?? globalThis.fetch;
     this.baseUrl = (configuration.baseUrl ?? DEFAULT_BASE_URL).replace(/\/$/, "");
+    this.placeMapper = new GooglePlaceEntityMapper(
+      configuration.now ?? (() => new Date()),
+    );
   }
 
   async autocomplete(
-    request: GooglePlacesAutocompleteRequest,
-  ): Promise<ReadonlyArray<GooglePlaceSuggestion>> {
+    request: SearchPlacesInput,
+  ): Promise<ReadonlyArray<PlaceSuggestion>> {
     const input = request.input.trim();
     if (input.length === 0) return [];
 
@@ -93,24 +109,15 @@ export class GooglePlacesClient {
     );
 
     return (response.suggestions ?? []).flatMap(({ placePrediction }) => {
-      if (!placePrediction?.placeId || !placePrediction.text?.text) return [];
-
-      return [{
-        placeId: placePrediction.placeId,
-        text: placePrediction.text.text,
-        primaryText:
-          placePrediction.structuredFormat?.mainText?.text ??
-          placePrediction.text.text,
-        secondaryText:
-          placePrediction.structuredFormat?.secondaryText?.text ?? null,
-        types: placePrediction.types ?? [],
-      }];
+      if (!placePrediction) return [];
+      const result = this.suggestionMapper.map(placePrediction);
+      return result.success ? [result.data] : [];
     });
   }
 
   async getPlaceDetails(
-    request: GooglePlaceDetailsRequest,
-  ): Promise<GooglePlaceDetails> {
+    request: GetPlaceInput,
+  ): Promise<Place> {
     const placeId = requireValue(request.placeId, "Place ID");
     const sessionToken = requireValue(request.sessionToken, "Session token");
     const query = new URLSearchParams({ sessionToken });
@@ -118,7 +125,7 @@ export class GooglePlacesClient {
     if (request.languageCode) query.set("languageCode", request.languageCode);
     if (request.regionCode) query.set("regionCode", request.regionCode);
 
-    const response = await this.fetchJson<GooglePlaceDetailsResponse>(
+    const response = await this.fetchJson<GooglePlaceResponseDTO>(
       `${this.baseUrl}/places/${encodeURIComponent(placeId)}?${query.toString()}`,
       {
         method: "GET",
@@ -131,19 +138,10 @@ export class GooglePlacesClient {
       },
     );
 
-    return {
-      placeId: response.id ?? placeId,
-      displayName: response.displayName?.text ?? null,
-      formattedAddress: response.formattedAddress ?? "",
-      addressComponents: (response.addressComponents ?? []).map(
-        mapAddressComponent,
-      ),
-      location: response.location ?? null,
-      primaryType: response.primaryType ?? null,
-      types: response.types ?? [],
-      websiteUri: response.websiteUri ?? null,
-      businessStatus: response.businessStatus ?? null,
-    };
+    return Mapper.mapOrThrow(this.placeMapper, {
+      ...response,
+      id: response.id ?? placeId,
+    });
   }
 
   private async fetchJson<T>(url: string, init: RequestInit): Promise<T> {
@@ -183,46 +181,8 @@ async function readResponseBody(response: Response): Promise<unknown> {
   }
 }
 
-function mapAddressComponent(
-  component: GoogleAddressComponentResponse,
-): GooglePlaceAddressComponent {
-  return {
-    longText: component.longText ?? "",
-    shortText: component.shortText ?? "",
-    types: component.types ?? [],
-    languageCode: component.languageCode ?? null,
-  };
-}
-
 type GoogleAutocompleteResponse = {
   suggestions?: Array<{
-    placePrediction?: {
-      placeId?: string;
-      text?: { text?: string };
-      structuredFormat?: {
-        mainText?: { text?: string };
-        secondaryText?: { text?: string };
-      };
-      types?: string[];
-    };
+    placePrediction?: GooglePlaceSuggestionResponseDTO;
   }>;
-};
-
-type GoogleAddressComponentResponse = {
-  longText?: string;
-  shortText?: string;
-  types?: string[];
-  languageCode?: string;
-};
-
-type GooglePlaceDetailsResponse = {
-  id?: string;
-  displayName?: { text?: string };
-  formattedAddress?: string;
-  addressComponents?: GoogleAddressComponentResponse[];
-  location?: { latitude: number; longitude: number };
-  primaryType?: string;
-  types?: string[];
-  websiteUri?: string;
-  businessStatus?: string;
 };

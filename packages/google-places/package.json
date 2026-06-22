@@ -26,10 +26,17 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
+    "prebuild": "npm run build --workspace @edwardseshoka/foundation && npm run build --workspace @edwardseshoka/places",
     "build": "rm -rf dist && tsc -p tsconfig.json",
+    "prelint": "npm run build --workspace @edwardseshoka/foundation && npm run build --workspace @edwardseshoka/places",
     "lint": "tsc -p tsconfig.json --noEmit",
     "prepack": "npm run build",
     "test": "npm run build && node --test",
+    "pretypecheck": "npm run build --workspace @edwardseshoka/foundation && npm run build --workspace @edwardseshoka/places",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@edwardseshoka/foundation": "^1.1.0",
+    "@edwardseshoka/places": "0.0.0"
   }
 }

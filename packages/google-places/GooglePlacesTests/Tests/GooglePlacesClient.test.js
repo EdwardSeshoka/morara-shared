@@ -134,6 +134,10 @@ describe("GooglePlacesClient.getPlaceDetails", () => {
       assert.equal(details.formattedAddress, "R44, Stellenbosch, South Africa");
       assert.deepEqual(details.location, { latitude: -33.9, longitude: 18.8 });
       assert.equal(details.primaryType, "winery");
+      assert.equal(
+        details.retrievedAt.toISOString(),
+        "2026-06-23T10:15:30.000Z",
+      );
       assert.match(
         fetchStub.requests[0].input,
         /places\/estate-place-id\?sessionToken=session-four$/,
@@ -171,5 +175,6 @@ const createClient = (fetchStub) => {
     apiKey: "test-key",
     fetch: fetchStub.fetch,
     baseUrl: "https://places.test/v1",
+    now: () => new Date("2026-06-23T10:15:30.000Z"),
   });
 };
