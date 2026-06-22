@@ -1,12 +1,12 @@
 {
-  "name": "@edwardseshoka/foundation",
-  "version": "1.1.0",
-  "description": "Morara shared foundation utilities and abstractions.",
+  "name": "@edwardseshoka/phone-number-validation",
+  "version": "0.0.0",
+  "description": "Shared international phone-number parsing and validation for Morara.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
-    "directory": "packages/foundation"
+    "directory": "packages/phone-number-validation"
   },
   "type": "module",
   "main": "dist/index.js",
@@ -30,5 +30,8 @@
     "prepack": "npm run build",
     "test": "npm run build && node --test",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.13.7"
   }
 }
