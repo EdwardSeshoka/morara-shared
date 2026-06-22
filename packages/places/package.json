@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/places",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Morara Places domain and data models.",
   "license": "UNLICENSED",
   "repository": {
@@ -52,6 +52,6 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@edwardseshoka/foundation": "^1.1.0"
+    "@edwardseshoka/foundation": "^1.2.0"
   }
 }

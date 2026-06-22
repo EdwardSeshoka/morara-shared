@@ -1,5 +1,11 @@
 # @edwardseshoka/foundation
 
+## 1.2.0
+
+### Minor Changes
+
+- 77e85e5: Add dependency-free shared email validation.
+
 ## 1.1.0
 
 ### Minor Changes
