@@ -1,4 +1,4 @@
-# @edwardseshoka/google-places
+# @edwardseshoka/google-places-adapter
 
 ## 0.1.1
 
