@@ -1,5 +1,13 @@
 # @edwardseshoka/fixtures
 
+## 1.2.2
+
+### Patch Changes
+
+- 6f63c3b: Packages Restructure Change Set
+- Updated dependencies [6f63c3b]
+  - @edwardseshoka/contracts@2.0.0
+
 ## 1.2.1
 
 ### Patch Changes
