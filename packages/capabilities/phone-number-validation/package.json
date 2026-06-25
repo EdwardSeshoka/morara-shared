@@ -1,12 +1,12 @@
 {
   "name": "@edwardseshoka/phone-number-validation",
   "version": "0.1.0",
-  "description": "Shared international phone-number parsing and validation for Morara.",
+  "description": "Morara phone-number validation capability.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
-    "directory": "packages/phone-number-validation"
+    "directory": "packages/capabilities/phone-number-validation"
   },
   "type": "module",
   "main": "dist/index.js",

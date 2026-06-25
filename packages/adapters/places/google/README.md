@@ -1,4 +1,4 @@
-# @edwardseshoka/google-places
+# @edwardseshoka/google-places-adapter
 
 Backend-only Morara adapter for Google Places API (New).
 

@@ -3,7 +3,6 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const rootDir = process.cwd();
-const packagesDir = join(rootDir, "packages");
 const registry = "https://npm.pkg.github.com";
 
 function run(command, args, options = {}) {
@@ -43,9 +42,23 @@ function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
 }
 
-const workspaceDirs = readdirSync(packagesDir)
-  .map((entry) => join(packagesDir, entry))
-  .filter((path) => statSync(path).isDirectory());
+function findWorkspaceDirs(directory) {
+  return readdirSync(directory)
+    .map((entry) => join(directory, entry))
+    .filter((path) => statSync(path).isDirectory())
+    .filter((path) => !path.endsWith("node_modules") && !path.endsWith("dist"))
+    .flatMap((path) => {
+      const packageJsonPath = join(path, "package.json");
+      try {
+        statSync(packageJsonPath);
+        return [path];
+      } catch {
+        return findWorkspaceDirs(path);
+      }
+    });
+}
+
+const workspaceDirs = findWorkspaceDirs(join(rootDir, "packages"));
 
 let publishedCount = 0;
 let skippedCount = 0;

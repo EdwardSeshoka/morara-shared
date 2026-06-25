@@ -1,4 +1,4 @@
-# Google Places tests
+# Google Places adapter tests
 
 - `Tests` contains tests that mirror the production source.
 - `TestDoubles` contains reusable mocks, spies, and stubs.
@@ -14,5 +14,5 @@ Each test body is divided into `// Given`, `// When`, and `// Then` sections.
 Run locally with:
 
 ```bash
-npm test --workspace @edwardseshoka/google-places
+npm test --workspace @edwardseshoka/google-places-adapter
 ```

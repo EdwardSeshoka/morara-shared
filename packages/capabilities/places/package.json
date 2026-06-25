@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EdwardSeshoka/morara-shared.git",
-    "directory": "packages/places"
+    "directory": "packages/capabilities/places"
   },
   "type": "module",
   "main": "dist/Domain/index.js",
