@@ -1,5 +1,13 @@
 # @edwardseshoka/places
 
+## 0.2.1
+
+### Patch Changes
+
+- 6f63c3b: Packages Restructure Change Set
+- Updated dependencies [6f63c3b]
+  - @edwardseshoka/foundation@1.2.1
+
 ## 0.2.0
 
 ### Minor Changes

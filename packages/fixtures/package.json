@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/fixtures",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Morara shared fixtures and seed payloads.",
   "license": "UNLICENSED",
   "repository": {
@@ -26,7 +26,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@edwardseshoka/contracts": "^1.2.0"
+    "@edwardseshoka/contracts": "^2.0.0"
   },
   "scripts": {
     "prebuild": "npm run build --workspace @edwardseshoka/contracts",

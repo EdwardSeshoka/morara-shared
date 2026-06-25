@@ -1,5 +1,14 @@
 # @edwardseshoka/google-places-adapter
 
+## 0.1.2
+
+### Patch Changes
+
+- 6f63c3b: Packages Restructure Change Set
+- Updated dependencies [6f63c3b]
+  - @edwardseshoka/places@0.2.1
+  - @edwardseshoka/foundation@1.2.1
+
 ## 0.1.1
 
 ### Patch Changes

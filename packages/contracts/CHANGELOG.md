@@ -1,5 +1,11 @@
 # @edwardseshoka/contracts
 
+## 2.0.0
+
+### Major Changes
+
+- 6f63c3b: Packages Restructure Change Set
+
 ## 1.2.0
 
 ### Minor Changes

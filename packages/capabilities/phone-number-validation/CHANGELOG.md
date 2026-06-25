@@ -1,5 +1,11 @@
 # @edwardseshoka/phone-number-validation
 
+## 0.1.1
+
+### Patch Changes
+
+- 6f63c3b: Packages Restructure Change Set
+
 ## 0.1.0
 
 ### Minor Changes
