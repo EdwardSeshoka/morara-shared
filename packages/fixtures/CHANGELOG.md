@@ -1,5 +1,11 @@
 # @edwardseshoka/fixtures
 
+## 2.0.0
+
+### Major Changes
+
+- 40a6a25: Fixtures Major Bump
+
 ## 1.2.2
 
 ### Patch Changes
