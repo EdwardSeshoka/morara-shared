@@ -6,8 +6,8 @@ Shared internal TypeScript packages for Morara.
 
 - `@edwardseshoka/foundation` — common protocols and abstractions
 - `@edwardseshoka/phone-number-validation` — international phone-number validation and normalization
-- `@edwardseshoka/google-places` — backend Google Places autocomplete and place details adapter
-- `@edwardseshoka/places` — cohesive Places Domain and Data module
+- `@edwardseshoka/places` — Morara Places capability with domain and Morara API data access
+- `@edwardseshoka/google-places-adapter` — backend Google Places provider adapter
 - `@edwardseshoka/contracts` — DTOs and shared contracts
 - `@edwardseshoka/fixtures` — shared seed/fixture JSON for API scenarios
 

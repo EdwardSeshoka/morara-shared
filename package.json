@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/capabilities/*",
+    "packages/adapters/*/*"
   ],
   "scripts": {
     "build": "npm run build --workspaces",
