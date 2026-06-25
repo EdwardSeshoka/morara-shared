@@ -1,8 +1,6 @@
 import type {
   DiscoverContentType,
-  DiscoverCurationItem,
   DiscoverHomeResponse,
-  DiscoverHomeSeed,
   DiscoverHomeSection,
   DiscoverHero,
   DiscoverWineHero,
@@ -12,9 +10,14 @@ import type {
   RoomActivityCard,
   RoomActivityType,
   RoomActivityUser,
-  WineContract,
   WineEventCard
-} from "@edwardseshoka/contracts";
+} from "@edwardseshoka/contracts/discover";
+import type { WineContract } from "@edwardseshoka/contracts";
+
+import type {
+  DiscoverCurationItem,
+  DiscoverHomeSeed
+} from "../../discover/DiscoverHomeSeed.js";
 
 import articlesSeed from "../../seeds/articles/articles.seed.json" with { type: "json" };
 import discoverHomeSeed from "../../seeds/discover/discover-home.seed.json" with { type: "json" };
