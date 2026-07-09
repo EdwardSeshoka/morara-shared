@@ -19,6 +19,10 @@
     "./discover": {
       "types": "./dist/discover/index.d.ts",
       "default": "./dist/discover/index.js"
+    },
+    "./member": {
+      "types": "./dist/member/index.d.ts",
+      "default": "./dist/member/index.js"
     }
   },
   "files": [
