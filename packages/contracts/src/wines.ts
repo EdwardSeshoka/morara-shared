@@ -42,3 +42,21 @@ export type ListWinesResponse = {
 export type GetWineResponse = {
   item: WineContract | null;
 };
+
+export type AddWineRequest = {
+  name: string;
+  estate: string;
+  vintage?: number;
+  year?: number;
+  region: string;
+  location: WineLocationContract;
+  imageUrl: string;
+  description: string;
+  rating: WineRatingContract;
+  price: MoneyContract;
+  isFeatured: boolean;
+};
+
+export type AddWineResponse = {
+  item: WineContract;
+};
