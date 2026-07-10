@@ -1,0 +1,38 @@
+[
+  {
+    "id": "activity_sarah_kanonkop_checkin",
+    "activityType": "check_in",
+    "user": {
+      "id": "user_sarah_mitchell",
+      "displayName": "Sarah Mitchell",
+      "initials": "SM",
+      "role": "enthusiast"
+    },
+    "wine": {
+      "id": "featured-1",
+      "name": "Kanonkop Pinotage",
+      "vintage": 2019
+    },
+    "rating": 4.5,
+    "note": "Pouring this at The Pot Luck Club tonight. Still singing.",
+    "createdAt": "2026-04-24T18:30:00.000Z"
+  },
+  {
+    "id": "activity_james_rubicon_review",
+    "activityType": "review",
+    "user": {
+      "id": "user_james_voss",
+      "displayName": "James Voss",
+      "initials": "JV",
+      "role": "sommelier"
+    },
+    "wine": {
+      "id": "rubicon-2018",
+      "name": "Rubicon",
+      "vintage": 2018
+    },
+    "rating": 5,
+    "note": "Closed and brooding today - decant three hours and you get graphite, violet and that Meerlust spine.",
+    "createdAt": "2026-04-24T15:30:00.000Z"
+  }
+]

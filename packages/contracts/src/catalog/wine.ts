@@ -34,11 +34,3 @@ export type WineContract = {
   badge?: WineBadgeContract;
   isFeatured?: boolean;
 };
-
-export type ListWinesResponse = {
-  items: WineContract[];
-};
-
-export type GetWineResponse = {
-  item: WineContract | null;
-};
