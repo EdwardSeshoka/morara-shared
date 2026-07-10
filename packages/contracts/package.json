@@ -16,6 +16,26 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
+    "./catalog": {
+      "types": "./dist/catalog/index.d.ts",
+      "default": "./dist/catalog/index.js"
+    },
+    "./provenance": {
+      "types": "./dist/provenance/index.d.ts",
+      "default": "./dist/provenance/index.js"
+    },
+    "./editorial": {
+      "types": "./dist/editorial/index.d.ts",
+      "default": "./dist/editorial/index.js"
+    },
+    "./events": {
+      "types": "./dist/events/index.d.ts",
+      "default": "./dist/events/index.js"
+    },
+    "./social": {
+      "types": "./dist/social/index.d.ts",
+      "default": "./dist/social/index.js"
+    },
     "./discover": {
       "types": "./dist/discover/index.d.ts",
       "default": "./dist/discover/index.js"

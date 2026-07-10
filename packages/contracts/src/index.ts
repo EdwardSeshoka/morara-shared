@@ -3,11 +3,9 @@ export interface ApiResponse<TData> {
   message?: string;
 }
 
-export interface PaginationDTO {
+export interface PaginationContract {
   page: number;
   pageSize: number;
   totalItems: number;
   totalPages: number;
 }
-
-export * from "./wines.js";

@@ -1,62 +1,23 @@
-import type {
-  EditorialCard,
-  ProducerCard,
-  RegionCard,
-  RoomActivityCard,
-  WineEventCard,
-} from "./cards.js";
+import type { RegionContract, ProducerContract } from "../provenance/index.js";
+import type { EditorialContract } from "../editorial/index.js";
+import type { EventContract } from "../events/index.js";
+import type { ActivityContract } from "../social/index.js";
 
-export type DiscoverSectionAction = {
-  label: string;
-  href?: string;
-};
-
-export type ThisWeekInWineSection = {
-  id: "this_week_in_wine";
-  type: "editorial_cards";
-  eyebrow?: string;
-  title: string;
-  action?: DiscoverSectionAction;
-  items: EditorialCard[];
-};
-
-export type TravelByTheGlassSection = {
-  id: "travel_by_the_glass";
-  type: "region_cards";
-  eyebrow?: string;
-  title: string;
-  items: RegionCard[];
-};
-
-export type ProducersSection = {
-  id: "producers";
-  type: "producer_cards";
-  eyebrow?: string;
-  title: string;
-  items: ProducerCard[];
-};
-
-export type RoomSection = {
-  id: "the_room";
-  type: "room_activity";
-  eyebrow?: string;
-  title: string;
-  description?: string;
-  actions?: DiscoverSectionAction[];
-  items: RoomActivityCard[];
-};
-
-export type PouringTonightSection = {
-  id: "pouring_tonight";
-  type: "event_cards";
-  eyebrow?: string;
-  title: string;
-  items: WineEventCard[];
-};
-
-export type DiscoverHomeSection =
-  | ThisWeekInWineSection
-  | TravelByTheGlassSection
-  | ProducersSection
-  | RoomSection
-  | PouringTonightSection;
+/**
+ * A discover section: a titled, arranged list of domain contracts. The section
+ * owns arrangement (id, type, title, order); the items are the same contracts
+ * each domain's own api serves, reusable anywhere.
+ */
+export type DiscoverSection =
+  | { id: string; type: "regions"; title: string; eyebrow?: string; items: RegionContract[] }
+  | { id: string; type: "producers"; title: string; eyebrow?: string; items: ProducerContract[] }
+  | { id: string; type: "editorial"; title: string; eyebrow?: string; items: EditorialContract[] }
+  | { id: string; type: "events"; title: string; eyebrow?: string; items: EventContract[] }
+  | {
+      id: string;
+      type: "room";
+      title: string;
+      eyebrow?: string;
+      description?: string;
+      items: ActivityContract[];
+    };
