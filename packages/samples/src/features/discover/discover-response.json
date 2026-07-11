@@ -1,0 +1,220 @@
+{
+  "hero": {
+    "kind": "wine",
+    "feature": {
+      "label": "THIS WEEK'S PICK",
+      "volume": 47
+    },
+    "wine": {
+      "id": "rubicon-2018",
+      "name": "Rubicon",
+      "estate": "Meerlust Estate",
+      "vintage": 2018,
+      "year": 2018,
+      "region": "Stellenbosch",
+      "regionId": "region_stellenbosch",
+      "producerId": "estate_meerlust",
+      "styleName": "Bordeaux Blend",
+      "location": {
+        "area": "Stellenbosch"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+      "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+      "rating": {
+        "value": 4.7,
+        "count": 1480
+      },
+      "price": {
+        "amount": 895,
+        "currency": "ZAR"
+      },
+      "badge": {
+        "label": "This Week’s Pick"
+      },
+      "isFeatured": true
+    }
+  },
+  "sections": [
+    {
+      "id": "this_week_in_wine",
+      "title": "This Week in Wine",
+      "eyebrow": "WEEKLY",
+      "type": "editorial",
+      "items": [
+        {
+          "id": "article_old_vines_new_voices",
+          "contentType": "new_arrival",
+          "title": "Old Vines, New Voices",
+          "categoryLabel": "NEW ARRIVAL",
+          "description": "Five Swartland winemakers on working with vineyards older than they are.",
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read story"
+        },
+        {
+          "id": "article_valley_that_taught_cape",
+          "contentType": "article",
+          "title": "The Valley That Taught the Cape to Pour",
+          "categoryLabel": "EDITORIAL",
+          "description": "A weekend in Franschhoek, through the eyes of three sommeliers.",
+          "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read editorial"
+        },
+        {
+          "id": "guide_how_to_read_cape_label",
+          "contentType": "guide",
+          "title": "How to Read a Cape Label",
+          "categoryLabel": "GUIDE",
+          "description": "Estate, ward, cultivar - a short field manual.",
+          "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Open guide"
+        }
+      ]
+    },
+    {
+      "id": "travel_by_the_glass",
+      "title": "Travel by the glass",
+      "eyebrow": "REGIONS",
+      "type": "regions",
+      "items": [
+        {
+          "id": "region_stellenbosch",
+          "name": "Stellenbosch",
+          "country": "South Africa",
+          "province": "Western Cape",
+          "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+          "description": "Historic Cape vineyards shaped by mountain air and serious cellar craft.",
+          "producerCount": 142,
+          "wineCount": 1820
+        },
+        {
+          "id": "region_swartland",
+          "name": "Swartland",
+          "country": "South Africa",
+          "province": "Western Cape",
+          "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+          "description": "Old vines, dry farming, and a new generation of expressive Cape winemaking.",
+          "producerCount": 68,
+          "wineCount": 840
+        },
+        {
+          "id": "region_franschhoek",
+          "name": "Franschhoek",
+          "country": "South Africa",
+          "province": "Western Cape",
+          "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "description": "A valley of cellar doors, restaurants, and polished mountain-grown wines.",
+          "producerCount": 54,
+          "wineCount": 612
+        },
+        {
+          "id": "region_hemel_en_aarde",
+          "name": "Hemel-en-Aarde",
+          "country": "South Africa",
+          "province": "Western Cape",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+          "description": "Cool maritime vineyards known for precise Pinot Noir and Chardonnay.",
+          "producerCount": 31,
+          "wineCount": 287
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "title": "Producers to know",
+      "eyebrow": "PRODUCERS",
+      "type": "producers",
+      "items": [
+        {
+          "id": "estate_meerlust",
+          "name": "Meerlust Estate",
+          "regionId": "region_stellenbosch",
+          "regionName": "Stellenbosch",
+          "imageUrl": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1200&q=80",
+          "description": "A historic Stellenbosch estate best known for Rubicon and age-worthy Cape blends.",
+          "wineCount": 18
+        },
+        {
+          "id": "estate_kanonkop",
+          "name": "Kanonkop Estate",
+          "regionId": "region_stellenbosch",
+          "regionName": "Stellenbosch",
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+          "description": "A benchmark Cape producer with a deep reputation for Pinotage and structured reds.",
+          "wineCount": 22
+        },
+        {
+          "id": "estate_sadie_family",
+          "name": "Sadie Family Wines",
+          "regionId": "region_swartland",
+          "regionName": "Swartland",
+          "imageUrl": "https://images.unsplash.com/photo-1535869462434-f92cc30bf40c?auto=format&fit=crop&w=1200&q=80",
+          "description": "Swartland-focused wines built around old vines, texture, and restrained power.",
+          "wineCount": 11
+        }
+      ]
+    },
+    {
+      "id": "the_room",
+      "title": "A quieter kind of wine social.",
+      "eyebrow": "THE ROOM",
+      "type": "room",
+      "description": "Notes from sommeliers, farmers, collectors and curious drinkers.\nNo feeds, no scores out of 100 - just the bottles people actually opened this week.",
+      "items": [
+        {
+          "id": "activity_sarah_kanonkop_checkin",
+          "activityType": "check_in",
+          "user": {
+            "id": "user_sarah_mitchell",
+            "displayName": "Sarah Mitchell",
+            "initials": "SM",
+            "role": "enthusiast"
+          },
+          "wine": {
+            "id": "featured-1",
+            "name": "Kanonkop Pinotage",
+            "vintage": 2019
+          },
+          "rating": 4.5,
+          "note": "Pouring this at The Pot Luck Club tonight. Still singing.",
+          "createdAt": "2026-04-24T18:30:00.000Z"
+        },
+        {
+          "id": "activity_james_rubicon_review",
+          "activityType": "review",
+          "user": {
+            "id": "user_james_voss",
+            "displayName": "James Voss",
+            "initials": "JV",
+            "role": "sommelier"
+          },
+          "wine": {
+            "id": "rubicon-2018",
+            "name": "Rubicon",
+            "vintage": 2018
+          },
+          "rating": 5,
+          "note": "Closed and brooding today - decant three hours and you get graphite, violet and that Meerlust spine.",
+          "createdAt": "2026-04-24T15:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "pouring_tonight",
+      "title": "Pouring tonight",
+      "eyebrow": "NEAR YOU",
+      "type": "events",
+      "items": [
+        {
+          "id": "event_swartland_six_ways",
+          "title": "Swartland, Six Ways",
+          "eventType": "sommelier_led",
+          "startDateTime": "2026-04-25T17:30:00.000Z",
+          "venueName": "Salsify",
+          "location": "Kloof Street",
+          "seatsAvailable": 4,
+          "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
+        }
+      ]
+    }
+  ]
+}

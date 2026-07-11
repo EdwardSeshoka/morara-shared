@@ -1,6 +1,6 @@
 {
   "name": "@edwardseshoka/samples",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Morara sample data and contract factories.",
   "license": "UNLICENSED",
   "repository": {
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "prebuild": "npm run build --workspace @edwardseshoka/contracts",
-    "build": "tsc -p tsconfig.json && rm -rf dist/data && cp -R src/data dist/data",
+    "build": "rm -rf dist && tsc -p tsconfig.json && rsync -am --include='*/' --include='*.json' --exclude='*' src/ dist/",
     "prelint": "npm run build --workspace @edwardseshoka/contracts",
     "lint": "tsc -p tsconfig.json --noEmit",
     "prepack": "npm run build",

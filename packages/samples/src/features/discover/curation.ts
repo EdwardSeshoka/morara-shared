@@ -1,6 +1,7 @@
 /**
- * Private curation document — selection + ordering only. Resolved into a
- * DiscoverContract by composeDiscover; never exported from the package.
+ * The curation document shape — selection + ordering only. It references content
+ * by id and priority and frames the hero; the backend resolves it against the
+ * content pools into a `DiscoverContract`. This is shared seed, not composition.
  */
 export type CurationContentType =
   | "wine"

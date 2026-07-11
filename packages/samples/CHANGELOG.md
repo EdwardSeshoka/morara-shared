@@ -1,5 +1,11 @@
 # @edwardseshoka/fixtures
 
+## 4.0.0
+
+### Major Changes
+
+- `createDiscover()` now returns a frozen canned `DiscoverContract` snapshot instead of composing one. The `wines` argument is removed — composition moved to the backend, and the app-double replays this fixture so the same production mapper runs. A backend contract test keeps the fixture in sync with the real composed response.
+
 ## 3.0.0
 
 ### Major Changes
