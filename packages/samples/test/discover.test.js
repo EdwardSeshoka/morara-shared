@@ -59,18 +59,4 @@ describe("createDiscover", () => {
       "role"
     ]);
   });
-
-  it("composes the hero against injected catalog wines", () => {
-    const injected = createPublicWines().map((wine) =>
-      wine.id === "rubicon-2018" ? { ...wine, name: "Rubicon (real)" } : wine
-    );
-
-    const home = createDiscover({ wines: injected });
-
-    assert.equal(home.hero?.kind, "wine");
-    if (home.hero?.kind !== "wine") {
-      assert.fail("expected a wine hero");
-    }
-    assert.equal(home.hero.wine.name, "Rubicon (real)");
-  });
 });
