@@ -1,39 +1,26 @@
 import type { Result } from "../Result.js";
 
 /**
- * Nullable helper accepted by optional mapper helpers.
- *
- * @typeParam Input - Non-null source input type.
- */
-export type Optional<Input> = Input | null | undefined;
-
-/**
- * The result of {@link Mapper.map}. A non-failable mapper (`Failure = never`,
- * the default) returns its `Output` directly — no `Result` wrapper, no error to
- * handle. A failable mapper returns a `Result` the caller must handle.
- */
-export type Mapped<Output, Failure extends Error> = [Failure] extends [never]
-  ? Output
-  : Result<Output, Failure>;
-
-/**
  * Generic mapper contract for deterministic model transformations (DTO ⇄ domain,
- * database row ⇄ entity, entity ⇄ transport). Non-failable mappers simply return
- * their output; failable mappers report failure through the shared {@link Result}.
+ * database row ⇄ entity, entity ⇄ transport).
+ *
+ * `map` always returns a {@link Result}: mapping failures are *returned*, never
+ * thrown, so the caller decides what a failure means (throw, skip, fall back).
+ * `Failure` is `never` for non-failable mappers.
  *
  * @typeParam Input - Source value type.
  * @typeParam Output - Target value type.
  * @typeParam Failure - Mapping error type (`never` for non-failable mappers).
  *
- * @example Non-failable mapper — returns the output directly
+ * @example Non-failable — use `flatMap` for the output directly
  * ```ts
- * const toWineDto: Mapper<Wine, WineDto> = {
- *   map: (wine) => ({ id: wine.id, score: wine.rating }),
+ * const toDto: Mapper<Wine, WineDto> = {
+ *   map: (wine) => ({ success: true, data: { id: wine.id, score: wine.rating } }),
  * };
- * const dto = toWineDto.map(wine); // WineDto — no Result, no error handling
+ * const dto = Mapper.flatMap(toDto, wine); // WineDto
  * ```
  *
- * @example Failable mapper — returns a Result
+ * @example Failable — handle the returned Result
  * ```ts
  * class InvalidWineError extends Error {}
  * const toWine: Mapper<WineDto, Wine, InvalidWineError> = {
@@ -42,31 +29,27 @@ export type Mapped<Output, Failure extends Error> = [Failure] extends [never]
  *     return { success: true, data: { id: dto.id, rating: dto.score } };
  *   },
  * };
+ * const result = toWine.map(dto);
+ * if (!result.success) throw result.error;   // caller's decision
  * ```
  */
 export interface Mapper<Input, Output, Failure extends Error = never> {
   /**
-   * Maps a source value into a target value. Returns the output directly for a
-   * non-failable mapper, or a `Result` for a failable one.
+   * Maps a source value into a target value, returning a `Result`. Failures are
+   * returned in the result, not thrown.
    */
-  map(input: Input): Mapped<Output, Failure>;
+  map(input: Input): Result<Output, Failure>;
 }
 
 export namespace Mapper {
   /**
-   * Unwraps a failable mapper's result, returning its output or throwing its
-   * error. Non-failable mappers return their output from `map` directly and
-   * don't need this.
-   *
-   * @example
-   * ```ts
-   * const record = Mapper.unwrap(WineItemToRecordMapper.map(item)); // throws on failure
-   * const contract = WineToContractMapper.map(wine);                // non-failable, no unwrap
-   * ```
+   * Returns a non-failable mapper's output directly. Available only when
+   * `Failure = never`, so the type system guarantees there is no error to handle.
    */
-  export function unwrap<Output, Failure extends Error>(result: Result<Output, Failure>): Output {
+  export function flatMap<Input, Output>(mapper: Mapper<Input, Output, never>, input: Input): Output {
+    const result = mapper.map(input);
     if (!result.success) {
-      throw result.error;
+      throw new Error("Non-failable mapper returned failure.");
     }
     return result.data;
   }

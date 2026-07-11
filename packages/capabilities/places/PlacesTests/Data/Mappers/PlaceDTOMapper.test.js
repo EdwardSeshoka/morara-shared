@@ -16,10 +16,11 @@ describe("PlaceDTOMapper", () => {
       const result = mapper.map(place);
 
       // Then
-      assert.equal(result.retrievedAt, "2026-06-23T10:15:30.000Z");
+      assert.equal(result.success, true);
+      assert.equal(result.data.retrievedAt, "2026-06-23T10:15:30.000Z");
       assert.equal(
-        JSON.parse(JSON.stringify(result)).retrievedAt,
-        result.retrievedAt,
+        JSON.parse(JSON.stringify(result.data)).retrievedAt,
+        result.data.retrievedAt,
       );
     },
   );

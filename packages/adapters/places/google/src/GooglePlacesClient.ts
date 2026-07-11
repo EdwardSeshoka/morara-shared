@@ -1,4 +1,3 @@
-import { Mapper } from "@edwardseshoka/foundation";
 import type {
   GetPlaceInput,
   Place,
@@ -138,12 +137,12 @@ export class GooglePlacesClient {
       },
     );
 
-    return Mapper.unwrap(
-      this.placeMapper.map({
+    const result = this.placeMapper.map({
       ...response,
       id: response.id ?? placeId,
-    }),
-    );
+    });
+    if (!result.success) throw result.error;
+    return result.data;
   }
 
   private async fetchJson<T>(url: string, init: RequestInit): Promise<T> {
