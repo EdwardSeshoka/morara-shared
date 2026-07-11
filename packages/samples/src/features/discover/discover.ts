@@ -1,6 +1,6 @@
 import type { DiscoverContract } from "@edwardseshoka/contracts/discover";
 
-import rawResponse from "../data/discover/discover-home.response.json" with { type: "json" };
+import rawResponse from "./discover-response.json" with { type: "json" };
 
 /**
  * The canned discover home response for app doubles — a frozen snapshot of the

@@ -1,10 +1,10 @@
-export { createPublicWines } from "./factories/publicWines.js";
-export { createDiscover } from "./factories/discover.js";
-export { provenanceSamples } from "./provenance/provenanceSamples.js";
-export { editorialSamples } from "./editorial/editorialSamples.js";
-export { eventsSamples } from "./events/eventsSamples.js";
-export { socialSamples } from "./social/socialSamples.js";
-export { discoverSamples } from "./discover/discoverSamples.js";
+export { createPublicWines } from "./features/catalog/publicWines.js";
+export { provenanceSamples } from "./features/provenance/provenanceSamples.js";
+export { editorialSamples } from "./features/editorial/editorialSamples.js";
+export { eventsSamples } from "./features/events/eventsSamples.js";
+export { socialSamples } from "./features/social/socialSamples.js";
+export { discoverSamples } from "./features/discover/discoverSamples.js";
+export { createDiscover } from "./features/discover/discover.js";
 export type {
   Curation,
   CurationHero,
@@ -12,4 +12,4 @@ export type {
   CurationSection,
   CurationContentType,
   CurationSectionType
-} from "./discover/curation.js";
+} from "./features/discover/curation.js";

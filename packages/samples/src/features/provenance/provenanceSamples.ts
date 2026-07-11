@@ -1,7 +1,7 @@
 import type { ProducerContract, RegionContract } from "@edwardseshoka/contracts/provenance";
 
-import rawRegions from "../data/regions/regions.json" with { type: "json" };
-import rawProducers from "../data/producers/producers.json" with { type: "json" };
+import rawRegions from "./regions.json" with { type: "json" };
+import rawProducers from "./producers.json" with { type: "json" };
 
 /** Sample provenance content (regions + producers) — the provenance service's own sample. */
 export const provenanceSamples = {

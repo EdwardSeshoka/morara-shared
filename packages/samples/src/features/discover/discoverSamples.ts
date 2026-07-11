@@ -1,6 +1,6 @@
 import type { Curation } from "./curation.js";
 
-import rawCuration from "../data/discover/discover-home.seed.json" with { type: "json" };
+import rawCuration from "./curation.json" with { type: "json" };
 
 /**
  * Sample discover content — the curation document (hero + section arrangement)
