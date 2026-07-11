@@ -1,5 +1,12 @@
 # @edwardseshoka/places
 
+## 0.2.3
+
+### Patch Changes
+
+- Updated dependencies [444bd2e]
+  - @edwardseshoka/foundation@3.0.0
+
 ## 0.2.2
 
 ### Patch Changes

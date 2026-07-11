@@ -1,5 +1,13 @@
 # @edwardseshoka/google-places-adapter
 
+## 0.1.4
+
+### Patch Changes
+
+- Updated dependencies [444bd2e]
+  - @edwardseshoka/foundation@3.0.0
+  - @edwardseshoka/places@0.2.3
+
 ## 0.1.3
 
 ### Patch Changes
