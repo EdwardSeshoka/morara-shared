@@ -6,16 +6,13 @@ import type { PlaceSuggestion } from "../../Domain/Entities/PlaceSuggestion.js";
 export class PlaceSuggestionDTOMapper
   implements Mapper<PlaceSuggestion, PlaceSuggestionDTO>
 {
-  map(input: PlaceSuggestion) {
+  map(input: PlaceSuggestion): PlaceSuggestionDTO {
     return {
-      success: true as const,
-      data: {
-        placeId: input.placeId,
-        text: input.text,
-        primaryText: input.primaryText,
-        secondaryText: input.secondaryText,
-        types: [...input.types],
-      },
+      placeId: input.placeId,
+      text: input.text,
+      primaryText: input.primaryText,
+      secondaryText: input.secondaryText,
+      types: [...input.types],
     };
   }
 }

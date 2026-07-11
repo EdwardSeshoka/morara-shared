@@ -21,8 +21,7 @@ describe("GetPlaceRequestDTOMapper", () => {
       const result = mapper.map(input);
 
       // Then
-      assert.equal(result.success, true);
-      assert.deepEqual(result.data, input);
+      assert.deepEqual(result, input);
     },
   );
 });
