@@ -18,9 +18,8 @@ describe("PlaceSuggestionDTOMapper", () => {
       const result = mapper.map(suggestion);
 
       // Then
-      assert.equal(result.success, true);
-      assert.deepEqual(result.data, suggestion);
-      assert.equal(JSON.stringify(result.data), JSON.stringify(suggestion));
+      assert.deepEqual(result, suggestion);
+      assert.equal(JSON.stringify(result), JSON.stringify(suggestion));
     },
   );
 });

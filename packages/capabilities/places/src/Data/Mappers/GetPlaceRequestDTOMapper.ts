@@ -6,16 +6,13 @@ import type { GetPlaceInput } from "../../Domain/Contracts/PlacesQueries.js";
 export class GetPlaceRequestDTOMapper
   implements Mapper<GetPlaceInput, GetPlaceRequestDTO>
 {
-  map(input: GetPlaceInput) {
+  map(input: GetPlaceInput): GetPlaceRequestDTO {
     return {
-      success: true as const,
-      data: {
-        placeId: input.placeId,
-        sessionToken: input.sessionToken,
-        purpose: input.purpose,
-        languageCode: input.languageCode,
-        regionCode: input.regionCode,
-      },
+      placeId: input.placeId,
+      sessionToken: input.sessionToken,
+      purpose: input.purpose,
+      languageCode: input.languageCode,
+      regionCode: input.regionCode,
     };
   }
 }

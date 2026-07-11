@@ -26,16 +26,16 @@ export class PlacesDataRepository implements PlacesRepository {
   async search(
     input: SearchPlacesInput,
   ): Promise<ReadonlyArray<PlaceSuggestion>> {
-    const request = Mapper.mapOrThrow(this.searchRequestMapper, input);
+    const request = this.searchRequestMapper.map(input);
     const response = await this.service.search(request);
     return response.suggestions.map((suggestion) =>
-      Mapper.mapOrThrow(this.suggestionMapper, suggestion),
+      this.suggestionMapper.map(suggestion),
     );
   }
 
   async getDetails(input: GetPlaceInput): Promise<Place> {
-    const request = Mapper.mapOrThrow(this.detailsRequestMapper, input);
+    const request = this.detailsRequestMapper.map(input);
     const response = await this.service.getDetails(request);
-    return Mapper.mapOrThrow(this.placeMapper, response.place);
+    return Mapper.unwrap(this.placeMapper.map(response.place));
   }
 }

@@ -138,10 +138,12 @@ export class GooglePlacesClient {
       },
     );
 
-    return Mapper.mapOrThrow(this.placeMapper, {
+    return Mapper.unwrap(
+      this.placeMapper.map({
       ...response,
       id: response.id ?? placeId,
-    });
+    }),
+    );
   }
 
   private async fetchJson<T>(url: string, init: RequestInit): Promise<T> {
