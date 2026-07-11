@@ -18,8 +18,9 @@ describe("PlaceSuggestionEntityMapper", () => {
       const result = mapper.map(dto);
 
       // Then
-      assert.deepEqual(result, dto);
-      assert.notEqual(result.types, dto.types);
+      assert.equal(result.success, true);
+      assert.deepEqual(result.data, dto);
+      assert.notEqual(result.data.types, dto.types);
     },
   );
 });
