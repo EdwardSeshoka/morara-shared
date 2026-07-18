@@ -1,0 +1,51 @@
+[
+  {
+    "id": "app_wo_stellenbosch",
+    "name": "Stellenbosch",
+    "countryCode": "ZA",
+    "regionId": "region_stellenbosch",
+    "system": "WO",
+    "description": "South African Wine of Origin district."
+  },
+  {
+    "id": "app_wo_swartland",
+    "name": "Swartland",
+    "countryCode": "ZA",
+    "regionId": "region_swartland",
+    "system": "WO",
+    "description": "South African Wine of Origin district."
+  },
+  {
+    "id": "app_pauillac",
+    "name": "Pauillac",
+    "countryCode": "FR",
+    "regionId": "region_pauillac",
+    "system": "AOC",
+    "parentAppellationId": "app_medoc",
+    "description": "Left-Bank Bordeaux commune AOC."
+  },
+  {
+    "id": "app_champagne",
+    "name": "Champagne",
+    "countryCode": "FR",
+    "regionId": "region_champagne",
+    "system": "AOC",
+    "description": "Protected appellation for méthode champenoise sparkling."
+  },
+  {
+    "id": "app_barolo",
+    "name": "Barolo",
+    "countryCode": "IT",
+    "regionId": "region_barolo",
+    "system": "DOCG",
+    "description": "Piedmont’s top Nebbiolo denomination."
+  },
+  {
+    "id": "app_napa_valley",
+    "name": "Napa Valley",
+    "countryCode": "US",
+    "regionId": "region_napa_valley",
+    "system": "AVA",
+    "description": "American Viticultural Area in California."
+  }
+]
