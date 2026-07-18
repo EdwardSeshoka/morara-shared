@@ -1,2 +1,7 @@
 node_modules
 dist
+
+# Sample/fixture JSON is tracked deliberately. A global `*.json` ignore
+# (core.excludesFile) would otherwise silently drop newly-added fixtures and
+# break CI on a fresh checkout (imports resolve to missing modules).
+!packages/samples/src/**/*.json

@@ -1,8 +1,7 @@
 import type {
   MoneyContract,
   WineContract,
-  WineLocationContract,
-  WineRatingContract
+  WineLocationContract
 } from "./wine.js";
 
 export type ListWinesResponse = {
@@ -26,7 +25,6 @@ export type AddWineRequest = {
   location: WineLocationContract;
   imageUrl: string;
   description: string;
-  rating: WineRatingContract;
   price: MoneyContract;
   isFeatured: boolean;
 };
