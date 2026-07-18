@@ -1,29 +1,55 @@
 {
   "hero": {
     "kind": "wine",
-    "feature": {
-      "label": "THIS WEEK'S PICK",
-      "volume": 47
-    },
+    "issueLabel": "No. 47",
+    "kicker": "This week’s pick",
+    "title": "Rubicon, once more.",
+    "description": "Meerlust’s 2018 — four Bordeaux varieties, pouring generously after three hours in the decanter.",
     "wine": {
       "id": "rubicon-2018",
+      "wineLabelId": "rubicon",
       "name": "Rubicon",
       "estate": "Meerlust Estate",
+      "producerId": "estate_meerlust",
       "vintage": 2018,
       "year": 2018,
+      "countryCode": "ZA",
       "region": "Stellenbosch",
       "regionId": "region_stellenbosch",
-      "producerId": "estate_meerlust",
+      "appellation": {
+        "id": "app_wo_stellenbosch",
+        "name": "Stellenbosch",
+        "system": "WO"
+      },
       "styleName": "Bordeaux Blend",
+      "color": "red",
+      "grapeBlend": [
+        {
+          "grapeVarietyId": "grape_cabernet_sauvignon",
+          "grapeName": "Cabernet Sauvignon",
+          "percentage": 63
+        },
+        {
+          "grapeVarietyId": "grape_merlot",
+          "grapeName": "Merlot",
+          "percentage": 23
+        },
+        {
+          "grapeVarietyId": "grape_cabernet_franc",
+          "grapeName": "Cabernet Franc",
+          "percentage": 10
+        },
+        {
+          "grapeVarietyId": "grape_petit_verdot",
+          "grapeName": "Petit Verdot",
+          "percentage": 4
+        }
+      ],
       "location": {
         "area": "Stellenbosch"
       },
       "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
       "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
-      "rating": {
-        "value": 4.7,
-        "count": 1480
-      },
       "price": {
         "amount": 895,
         "currency": "ZAR"
@@ -31,188 +57,469 @@
       "badge": {
         "label": "This Week’s Pick"
       },
-      "isFeatured": true
+      "isFeatured": true,
+      "verdict": "Essential",
+      "provenance": "verified",
+      "source": {
+        "name": "Meerlust Estate",
+        "tier": "producer",
+        "role": "verified producer"
+      },
+      "noteCount": 1480
+    },
+    "primaryAction": {
+      "kind": "request_taste",
+      "enabled": true
+    },
+    "secondaryAction": {
+      "kind": "add_to_cellar",
+      "enabled": true
     }
   },
   "sections": [
     {
       "id": "this_week_in_wine",
-      "title": "This Week in Wine",
-      "eyebrow": "WEEKLY",
       "type": "editorial",
+      "eyebrow": "READ",
+      "title": "This week in wine",
       "items": [
         {
-          "id": "article_old_vines_new_voices",
-          "contentType": "new_arrival",
-          "title": "Old Vines, New Voices",
-          "categoryLabel": "NEW ARRIVAL",
-          "description": "Five Swartland winemakers on working with vineyards older than they are.",
+          "id": "article_why_2018_stellenbosch",
+          "contentType": "article",
+          "categoryLabel": "THE LONG READ",
+          "title": "Why 2018 is the vintage to buy in Stellenbosch.",
+          "description": "A cool, late-ripening year gave the Cape’s Bordeaux blends the structure to age a decade — here’s what to look for, and what to lay down.",
           "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
-          "ctaLabel": "Read story"
+          "ctaLabel": "Read story",
+          "subject": {
+            "kind": "vintage_report",
+            "regionId": "region_stellenbosch",
+            "countryCode": "ZA",
+            "vintage": 2018
+          }
         },
         {
-          "id": "article_valley_that_taught_cape",
+          "id": "guide_field_guide_swartland_chenin",
+          "contentType": "guide",
+          "categoryLabel": "GUIDE",
+          "title": "A field guide to Swartland chenin.",
+          "description": "Old bush vines, granite soils, and the skin-contact whites redrawing the Cape’s white-wine map.",
+          "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Open guide",
+          "subject": {
+            "kind": "region",
+            "regionId": "region_swartland"
+          }
+        },
+        {
+          "id": "article_decanting_how_long",
           "contentType": "article",
-          "title": "The Valley That Taught the Cape to Pour",
           "categoryLabel": "EDITORIAL",
-          "description": "A weekend in Franschhoek, through the eyes of three sommeliers.",
+          "title": "Decanting: how long is too long?",
+          "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
           "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
           "ctaLabel": "Read editorial"
-        },
-        {
-          "id": "guide_how_to_read_cape_label",
-          "contentType": "guide",
-          "title": "How to Read a Cape Label",
-          "categoryLabel": "GUIDE",
-          "description": "Estate, ward, cultivar - a short field manual.",
-          "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
-          "ctaLabel": "Open guide"
         }
       ]
     },
     {
-      "id": "travel_by_the_glass",
-      "title": "Travel by the glass",
-      "eyebrow": "REGIONS",
-      "type": "regions",
+      "id": "worth_opening_now",
+      "type": "wines",
+      "eyebrow": "READY TO POUR",
+      "title": "Worth opening now",
       "items": [
         {
-          "id": "region_stellenbosch",
-          "name": "Stellenbosch",
-          "country": "South Africa",
-          "province": "Western Cape",
-          "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-          "description": "Historic Cape vineyards shaped by mountain air and serious cellar craft.",
-          "producerCount": 142,
-          "wineCount": 1820
-        },
-        {
-          "id": "region_swartland",
-          "name": "Swartland",
-          "country": "South Africa",
-          "province": "Western Cape",
-          "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-          "description": "Old vines, dry farming, and a new generation of expressive Cape winemaking.",
-          "producerCount": 68,
-          "wineCount": 840
-        },
-        {
-          "id": "region_franschhoek",
-          "name": "Franschhoek",
-          "country": "South Africa",
-          "province": "Western Cape",
-          "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "description": "A valley of cellar doors, restaurants, and polished mountain-grown wines.",
-          "producerCount": 54,
-          "wineCount": 612
-        },
-        {
-          "id": "region_hemel_en_aarde",
-          "name": "Hemel-en-Aarde",
-          "country": "South Africa",
-          "province": "Western Cape",
-          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-          "description": "Cool maritime vineyards known for precise Pinot Noir and Chardonnay.",
-          "producerCount": 31,
-          "wineCount": 287
-        }
-      ]
-    },
-    {
-      "id": "producers",
-      "title": "Producers to know",
-      "eyebrow": "PRODUCERS",
-      "type": "producers",
-      "items": [
-        {
-          "id": "estate_meerlust",
-          "name": "Meerlust Estate",
+          "id": "kanonkop-pinotage-2019",
+          "wineLabelId": "kanonkop-pinotage",
+          "name": "Kanonkop Pinotage",
+          "estate": "Kanonkop Estate",
+          "producerId": "estate_kanonkop",
+          "vintage": 2019,
+          "year": 2019,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
           "regionId": "region_stellenbosch",
-          "regionName": "Stellenbosch",
-          "imageUrl": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1200&q=80",
-          "description": "A historic Stellenbosch estate best known for Rubicon and age-worthy Cape blends.",
-          "wineCount": 18
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Pinotage",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape_pinotage",
+              "grapeName": "Pinotage",
+              "percentage": 100
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&auto=format&fit=crop&q=80",
+          "description": "A benchmark Stellenbosch Pinotage. Rich, structured, and layered with dark fruit and spice.",
+          "price": {
+            "amount": 845,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "Editor’s Pick"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "verified",
+          "source": {
+            "name": "Kanonkop Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1280
         },
         {
-          "id": "estate_kanonkop",
-          "name": "Kanonkop Estate",
+          "id": "de-toren-book-xvii-2016",
+          "wineLabelId": "de-toren-book-xvii",
+          "name": "Book 17 XVII",
+          "estate": "De Toren",
+          "vintage": 2016,
+          "year": 2016,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.vivino.com/thumbs/43se9NpdSPKkbPdGMbRV6Q_pb_x300.png",
+          "description": "Powerful Bordeaux-style blend from Stellenbosch with cassis, cedar, and polished tannins.",
+          "price": {
+            "amount": 710,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Essential",
+          "provenance": "listed",
+          "source": {
+            "name": "Great Domaines",
+            "tier": "distributor",
+            "role": "distributor"
+          },
+          "noteCount": 43
+        },
+        {
+          "id": "rubicon-2018",
+          "wineLabelId": "rubicon",
+          "name": "Rubicon",
+          "estate": "Meerlust Estate",
+          "producerId": "estate_meerlust",
+          "vintage": 2018,
+          "year": 2018,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
           "regionId": "region_stellenbosch",
-          "regionName": "Stellenbosch",
-          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
-          "description": "A benchmark Cape producer with a deep reputation for Pinotage and structured reds.",
-          "wineCount": 22
+          "appellation": {
+            "id": "app_wo_stellenbosch",
+            "name": "Stellenbosch",
+            "system": "WO"
+          },
+          "styleName": "Bordeaux Blend",
+          "color": "red",
+          "grapeBlend": [
+            {
+              "grapeVarietyId": "grape_cabernet_sauvignon",
+              "grapeName": "Cabernet Sauvignon",
+              "percentage": 63
+            },
+            {
+              "grapeVarietyId": "grape_merlot",
+              "grapeName": "Merlot",
+              "percentage": 23
+            },
+            {
+              "grapeVarietyId": "grape_cabernet_franc",
+              "grapeName": "Cabernet Franc",
+              "percentage": 10
+            },
+            {
+              "grapeVarietyId": "grape_petit_verdot",
+              "grapeName": "Petit Verdot",
+              "percentage": 4
+            }
+          ],
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&auto=format&fit=crop&q=80",
+          "description": "Meerlust’s 2018 — named for the river Caesar crossed, built from four Bordeaux varieties, and pouring generously after three hours in the decanter.",
+          "price": {
+            "amount": 895,
+            "currency": "ZAR"
+          },
+          "badge": {
+            "label": "This Week’s Pick"
+          },
+          "isFeatured": true,
+          "verdict": "Essential",
+          "provenance": "verified",
+          "source": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 1480
         },
         {
-          "id": "estate_sadie_family",
-          "name": "Sadie Family Wines",
-          "regionId": "region_swartland",
-          "regionName": "Swartland",
-          "imageUrl": "https://images.unsplash.com/photo-1535869462434-f92cc30bf40c?auto=format&fit=crop&w=1200&q=80",
-          "description": "Swartland-focused wines built around old vines, texture, and restrained power.",
-          "wineCount": 11
+          "id": "boekenhoutskloof-syrah-2020",
+          "wineLabelId": "boekenhoutskloof-syrah",
+          "name": "Syrah",
+          "estate": "Boekenhoutskloof",
+          "producerId": "estate_boekenhoutskloof",
+          "vintage": 2020,
+          "year": 2020,
+          "countryCode": "ZA",
+          "region": "Franschhoek",
+          "regionId": "region_franschhoek",
+          "styleName": "Syrah",
+          "color": "red",
+          "location": {
+            "area": "Franschhoek"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&auto=format&fit=crop&q=80",
+          "description": "Elegant and savory, with black fruit, pepper, and fine tannins. Built for aging.",
+          "price": {
+            "amount": 695,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "verified",
+          "source": {
+            "name": "Boekenhoutskloof",
+            "tier": "producer",
+            "role": "verified producer"
+          },
+          "noteCount": 980
+        },
+        {
+          "id": "tokara-sauvignon-blanc-2022",
+          "wineLabelId": "tokara-sauvignon-blanc",
+          "name": "Sauvignon Blanc Reserve",
+          "estate": "Tokara",
+          "vintage": 2022,
+          "year": 2022,
+          "countryCode": "ZA",
+          "region": "Stellenbosch",
+          "styleName": "Sauvignon Blanc",
+          "color": "white",
+          "location": {
+            "area": "Stellenbosch"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+          "description": "Bright and mineral, with citrus and fresh-cut herbs. Clean finish, great with seafood.",
+          "price": {
+            "amount": 195,
+            "currency": "ZAR"
+          },
+          "isFeatured": false,
+          "verdict": "Worth Revisiting",
+          "provenance": "community",
+          "source": {
+            "name": "Community knowledge",
+            "role": "640 member notes"
+          },
+          "noteCount": 640
         }
       ]
     },
     {
-      "id": "the_room",
-      "title": "A quieter kind of wine social.",
-      "eyebrow": "THE ROOM",
-      "type": "room",
-      "description": "Notes from sommeliers, farmers, collectors and curious drinkers.\nNo feeds, no scores out of 100 - just the bottles people actually opened this week.",
+      "id": "find_your_way_in",
+      "type": "doorways",
+      "eyebrow": "EXPLORE",
+      "title": "Find your way in",
       "items": [
         {
-          "id": "activity_sarah_kanonkop_checkin",
-          "activityType": "check_in",
-          "user": {
-            "id": "user_sarah_mitchell",
-            "displayName": "Sarah Mitchell",
-            "initials": "SM",
-            "role": "enthusiast"
-          },
-          "wine": {
-            "id": "featured-1",
-            "name": "Kanonkop Pinotage",
-            "vintage": 2019
-          },
-          "rating": 4.5,
-          "note": "Pouring this at The Pot Luck Club tonight. Still singing.",
-          "createdAt": "2026-04-24T18:30:00.000Z"
-        },
-        {
-          "id": "activity_james_rubicon_review",
-          "activityType": "review",
-          "user": {
-            "id": "user_james_voss",
-            "displayName": "James Voss",
-            "initials": "JV",
+          "id": "doorway_swartland_table",
+          "kind": "region",
+          "title": "The Swartland Table",
+          "subtitle": "Region · Swartland",
+          "description": "Old-bush reds and skin-contact whites from the granite ridges north of the Cape.",
+          "wineCount": 12,
+          "curator": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
             "role": "sommelier"
           },
-          "wine": {
-            "id": "rubicon-2018",
-            "name": "Rubicon",
-            "vintage": 2018
+          "target": {
+            "kind": "region",
+            "regionId": "region_swartland"
+          }
+        },
+        {
+          "id": "doorway_meerlust_cellar",
+          "kind": "producer",
+          "title": "The Meerlust Cellar",
+          "subtitle": "Estate · Stellenbosch",
+          "description": "Four decades of Bordeaux blends from one of the Cape’s founding estates.",
+          "wineCount": 8,
+          "curator": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "producer"
           },
-          "rating": 5,
-          "note": "Closed and brooding today - decant three hours and you get graphite, violet and that Meerlust spine.",
-          "createdAt": "2026-04-24T15:30:00.000Z"
+          "target": {
+            "kind": "producer",
+            "producerId": "estate_meerlust"
+          }
+        },
+        {
+          "id": "doorway_cape_bordeaux",
+          "kind": "collection",
+          "title": "Cape Bordeaux",
+          "subtitle": "Curated · Bordeaux blends",
+          "description": "Cabernet-led blends built to reward a decade in the cellar.",
+          "wineCount": 9,
+          "curator": {
+            "name": "Pieter van Wyk",
+            "status": "collector"
+          },
+          "target": {
+            "kind": "collection",
+            "collectionId": "collection_cape_bordeaux"
+          }
+        },
+        {
+          "id": "doorway_barolo_docg",
+          "kind": "appellation",
+          "title": "Barolo DOCG",
+          "subtitle": "Appellation · Piedmont",
+          "description": "Eleven communes of long-lived, perfumed Nebbiolo.",
+          "wineCount": 24,
+          "curator": {
+            "name": "Nomsa Dlamini",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "target": {
+            "kind": "appellation",
+            "appellationId": "app_barolo"
+          }
         }
       ]
     },
     {
-      "id": "pouring_tonight",
-      "title": "Pouring tonight",
-      "eyebrow": "NEAR YOU",
+      "id": "pouring_near_you",
       "type": "events",
+      "eyebrow": "JOIN",
+      "title": "Pouring near you",
       "items": [
+        {
+          "id": "event_meerlust_cellar_tasting",
+          "title": "Meerlust cellar tasting",
+          "eventType": "winemaker_dinner",
+          "startDateTime": "2026-07-24T16:00:00.000Z",
+          "venueName": "Meerlust Estate",
+          "location": "Stellenbosch",
+          "seatsAvailable": 4,
+          "host": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "producer"
+          },
+          "subject": {
+            "kind": "producer",
+            "producerId": "estate_meerlust"
+          }
+        },
         {
           "id": "event_swartland_six_ways",
           "title": "Swartland, Six Ways",
           "eventType": "sommelier_led",
-          "startDateTime": "2026-04-25T17:30:00.000Z",
-          "venueName": "Salsify",
-          "location": "Kloof Street",
-          "seatsAvailable": 4,
-          "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
+          "startDateTime": "2026-07-26T17:30:00.000Z",
+          "venueName": "Publik Wine Bar",
+          "location": "Bree Street",
+          "seatsAvailable": 12,
+          "imageUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
+          "host": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "subject": {
+            "kind": "region",
+            "regionId": "region_swartland"
+          }
+        }
+      ]
+    },
+    {
+      "id": "from_the_room",
+      "type": "room",
+      "eyebrow": "BELONG",
+      "title": "From the room",
+      "description": "Notes from sommeliers, collectors and curious drinkers. No scores — just the bottles people actually opened this week.",
+      "items": [
+        {
+          "id": "activity_alexandra_rubicon_review",
+          "activityType": "review",
+          "user": {
+            "id": "user_alexandra_meyer",
+            "displayName": "Alexandra Meyer",
+            "initials": "AM",
+            "status": "enthusiast"
+          },
+          "wine": {
+            "id": "rubicon-2018",
+            "wineLabelId": "rubicon",
+            "name": "Rubicon",
+            "producerName": "Meerlust Estate",
+            "vintage": 2018,
+            "vintageDisplay": "2018"
+          },
+          "verdict": "Essential",
+          "note": "Cassis and cedar, still tightly wound — gave it three hours and it opened into something generous.",
+          "createdAt": "2026-07-16T18:30:00.000Z"
+        },
+        {
+          "id": "activity_johan_pinotage_review",
+          "activityType": "review",
+          "user": {
+            "id": "user_johan_terblanche",
+            "displayName": "Johan Terblanche",
+            "initials": "JT",
+            "status": "collector"
+          },
+          "wine": {
+            "id": "kanonkop-pinotage-2019",
+            "wineLabelId": "kanonkop-pinotage",
+            "name": "Kanonkop Pinotage",
+            "producerName": "Kanonkop Estate",
+            "vintage": 2019,
+            "vintageDisplay": "2019"
+          },
+          "verdict": "Essential",
+          "note": "Fine-grained tannin over a long graphite finish. There is no hurry with this one — another decade, easily.",
+          "createdAt": "2026-07-14T15:30:00.000Z"
+        },
+        {
+          "id": "activity_nomsa_constance_note",
+          "activityType": "tasting_note",
+          "user": {
+            "id": "user_nomsa_dlamini",
+            "displayName": "Nomsa Dlamini",
+            "initials": "ND",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "wine": {
+            "id": "groot-constantia-grand-constance-2014",
+            "wineLabelId": "groot-constantia-grand-constance",
+            "name": "Grand Constance",
+            "producerName": "Groot Constantia",
+            "vintage": 2014,
+            "vintageDisplay": "2014"
+          },
+          "verdict": "Unforgettable",
+          "note": "Apricot and orange blossom, cut clean by a saline line that keeps all that sweetness honest.",
+          "createdAt": "2026-07-12T20:15:00.000Z"
         }
       ]
     }

@@ -1,29 +1,39 @@
 [
   {
-    "id": "article_old_vines_new_voices",
-    "contentType": "new_arrival",
-    "categoryLabel": "NEW ARRIVAL",
-    "title": "Old Vines, New Voices",
-    "description": "Five Swartland winemakers on working with vineyards older than they are.",
-    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
-    "ctaLabel": "Read story"
-  },
-  {
-    "id": "article_valley_that_taught_cape",
+    "id": "article_why_2018_stellenbosch",
     "contentType": "article",
-    "categoryLabel": "EDITORIAL",
-    "title": "The Valley That Taught the Cape to Pour",
-    "description": "A weekend in Franschhoek, through the eyes of three sommeliers.",
-    "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
-    "ctaLabel": "Read editorial"
+    "categoryLabel": "THE LONG READ",
+    "title": "Why 2018 is the vintage to buy in Stellenbosch.",
+    "description": "A cool, late-ripening year gave the Cape’s Bordeaux blends the structure to age a decade — here’s what to look for, and what to lay down.",
+    "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read story",
+    "subject": {
+      "kind": "vintage_report",
+      "regionId": "region_stellenbosch",
+      "countryCode": "ZA",
+      "vintage": 2018
+    }
   },
   {
-    "id": "guide_how_to_read_cape_label",
+    "id": "guide_field_guide_swartland_chenin",
     "contentType": "guide",
     "categoryLabel": "GUIDE",
-    "title": "How to Read a Cape Label",
-    "description": "Estate, ward, cultivar - a short field manual.",
+    "title": "A field guide to Swartland chenin.",
+    "description": "Old bush vines, granite soils, and the skin-contact whites redrawing the Cape’s white-wine map.",
     "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
-    "ctaLabel": "Open guide"
+    "ctaLabel": "Open guide",
+    "subject": {
+      "kind": "region",
+      "regionId": "region_swartland"
+    }
+  },
+  {
+    "id": "article_decanting_how_long",
+    "contentType": "article",
+    "categoryLabel": "EDITORIAL",
+    "title": "Decanting: how long is too long?",
+    "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
+    "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
+    "ctaLabel": "Read editorial"
   }
 ]

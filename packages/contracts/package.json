@@ -24,6 +24,10 @@
       "types": "./dist/provenance/index.d.ts",
       "default": "./dist/provenance/index.js"
     },
+    "./trust": {
+      "types": "./dist/trust/index.d.ts",
+      "default": "./dist/trust/index.js"
+    },
     "./editorial": {
       "types": "./dist/editorial/index.d.ts",
       "default": "./dist/editorial/index.js"

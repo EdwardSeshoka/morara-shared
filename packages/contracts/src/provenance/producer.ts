@@ -5,6 +5,8 @@
 export type ProducerContract = {
   id: string;
   name: string;
+  /** ISO country code, e.g. "ZA", "FR" — for global data quality. */
+  countryCode?: string;
   regionId?: string;
   regionName?: string;
   imageUrl?: string;
