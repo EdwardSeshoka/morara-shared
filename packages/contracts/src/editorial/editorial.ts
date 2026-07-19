@@ -1,3 +1,5 @@
+import type { TrustBylineContract } from "../trust/index.js";
+
 export type EditorialContentType = "article" | "guide" | "story" | "new_arrival";
 
 /**
@@ -27,6 +29,11 @@ export type EditorialContract = {
   description?: string;
   imageUrl?: string;
   ctaLabel?: string;
+  /**
+   * The author / byline that carries trust — a name plus a verification mark
+   * (`tier`) or a member `status` word, plus a role descriptor ("sommelier").
+   */
+  author?: TrustBylineContract;
   /** What the piece is about — powers "read more like this" and cross-linking. */
   subject?: EditorialSubjectContract;
 };

@@ -7,6 +7,11 @@
     "description": "A cool, late-ripening year gave the Cape’s Bordeaux blends the structure to age a decade — here’s what to look for, and what to lay down.",
     "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
     "ctaLabel": "Read story",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
     "subject": {
       "kind": "vintage_report",
       "regionId": "region_stellenbosch",
@@ -22,6 +27,11 @@
     "description": "Old bush vines, granite soils, and the skin-contact whites redrawing the Cape’s white-wine map.",
     "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
     "ctaLabel": "Open guide",
+    "author": {
+      "name": "Thandi Nkosi",
+      "tier": "professional",
+      "role": "sommelier"
+    },
     "subject": {
       "kind": "region",
       "regionId": "region_swartland"
@@ -34,6 +44,11 @@
     "title": "Decanting: how long is too long?",
     "description": "Three hours, six, overnight — when air becomes a wine’s friend, and when it quietly undoes it.",
     "imageUrl": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1200&q=80",
-    "ctaLabel": "Read editorial"
+    "ctaLabel": "Read editorial",
+    "author": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    }
   }
 ]

@@ -6,34 +6,14 @@
     "priority": 1,
     "label": "THIS WEEK'S PICK",
     "volume": 47,
-    "isActive": true,
-    "ctas": [
-      {
-        "id": "request_taste",
-        "label": "Request a taste",
-        "style": "primary"
-      },
-      {
-        "id": "add_to_cellar",
-        "label": "Add to cellar",
-        "style": "icon"
-      },
-      {
-        "id": "open_story",
-        "label": "Open the story",
-        "style": "secondary"
-      }
-    ]
+    "isActive": true
   },
   "sections": [
     {
       "id": "this_week_in_wine",
       "type": "editorial_cards",
       "eyebrow": "WEEKLY",
-      "title": "This Week in Wine",
-      "action": {
-        "label": "See all"
-      },
+      "title": "This week in wine",
       "itemRefs": [
         {
           "contentType": "article",
@@ -53,70 +33,114 @@
       ]
     },
     {
-      "id": "travel_by_the_glass",
-      "type": "region_cards",
-      "eyebrow": "REGIONS",
-      "title": "Travel by the glass",
+      "id": "find_your_way_in",
+      "type": "doorway_cards",
+      "eyebrow": "BROWSE",
+      "title": "Find your way in",
+      "doorways": [
+        {
+          "id": "doorway_swartland_table",
+          "kind": "region",
+          "title": "The Swartland Table",
+          "subtitle": "Region · Swartland",
+          "description": "Old-bush reds and skin-contact whites from the granite ridges north of the Cape.",
+          "wineCount": 12,
+          "curator": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "target": {
+            "kind": "region",
+            "regionId": "region_swartland"
+          }
+        },
+        {
+          "id": "doorway_meerlust_cellar",
+          "kind": "producer",
+          "title": "The Meerlust Cellar",
+          "subtitle": "Estate · Stellenbosch",
+          "description": "Four decades of Bordeaux blends from one of the Cape’s founding estates.",
+          "wineCount": 8,
+          "curator": {
+            "name": "Meerlust Estate",
+            "tier": "producer",
+            "role": "producer"
+          },
+          "target": {
+            "kind": "producer",
+            "producerId": "estate_meerlust"
+          }
+        },
+        {
+          "id": "doorway_cape_bordeaux",
+          "kind": "collection",
+          "title": "Cape Bordeaux",
+          "subtitle": "Curated · Bordeaux blends",
+          "description": "Cabernet-led blends built to reward a decade in the cellar.",
+          "wineCount": 9,
+          "curator": {
+            "name": "Pieter van Wyk",
+            "status": "collector"
+          },
+          "target": {
+            "kind": "collection",
+            "collectionId": "collection_cape_bordeaux"
+          }
+        },
+        {
+          "id": "doorway_barolo_docg",
+          "kind": "appellation",
+          "title": "Barolo DOCG",
+          "subtitle": "Appellation · Piedmont",
+          "description": "Eleven communes of long-lived, perfumed Nebbiolo.",
+          "wineCount": 24,
+          "curator": {
+            "name": "Nomsa Dlamini",
+            "tier": "professional",
+            "role": "sommelier"
+          },
+          "target": {
+            "kind": "appellation",
+            "appellationId": "app_barolo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pouring_near_you",
+      "type": "event_cards",
+      "eyebrow": "NEAR YOU",
+      "title": "Pouring near you",
       "itemRefs": [
         {
-          "contentType": "region",
-          "contentId": "region_stellenbosch",
+          "contentType": "event",
+          "contentId": "event_meerlust_cellar_tasting",
           "priority": 1
         },
         {
-          "contentType": "region",
-          "contentId": "region_swartland",
+          "contentType": "event",
+          "contentId": "event_swartland_six_ways",
           "priority": 2
         },
         {
-          "contentType": "region",
-          "contentId": "region_franschhoek",
+          "contentType": "event",
+          "contentId": "event_chenin_masterclass",
           "priority": 3
         },
         {
-          "contentType": "region",
-          "contentId": "region_hemel_en_aarde",
+          "contentType": "event",
+          "contentId": "event_cap_classique_brunch",
           "priority": 4
         }
       ]
     },
     {
-      "id": "producers",
-      "type": "producer_cards",
-      "eyebrow": "PRODUCERS",
-      "title": "Producers to know",
-      "itemRefs": [
-        {
-          "contentType": "estate",
-          "contentId": "estate_meerlust",
-          "priority": 1
-        },
-        {
-          "contentType": "estate",
-          "contentId": "estate_kanonkop",
-          "priority": 2
-        },
-        {
-          "contentType": "estate",
-          "contentId": "estate_sadie_family",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "id": "the_room",
+      "id": "from_the_room",
       "type": "room_activity",
       "eyebrow": "THE ROOM",
-      "title": "A quieter kind of wine social.",
-      "description": "Notes from sommeliers, farmers, collectors and curious drinkers.\nNo feeds, no scores out of 100 - just the bottles people actually opened this week.",
-      "actions": [
-        {
-          "label": "Join the room"
-        },
-        {
-          "label": "See contributors"
-        }
-      ],
+      "title": "From the room",
+      "description": "Notes from sommeliers, farmers, collectors and curious drinkers.\nNo feeds, no scores out of 100 — just the bottles people actually opened this week.",
       "itemRefs": [
         {
           "contentType": "room_activity",
@@ -132,19 +156,6 @@
           "contentType": "room_activity",
           "contentId": "activity_nomsa_constance_note",
           "priority": 3
-        }
-      ]
-    },
-    {
-      "id": "pouring_tonight",
-      "type": "event_cards",
-      "eyebrow": "NEAR YOU",
-      "title": "Pouring tonight",
-      "itemRefs": [
-        {
-          "contentType": "event",
-          "contentId": "event_swartland_six_ways",
-          "priority": 1
         }
       ]
     }
