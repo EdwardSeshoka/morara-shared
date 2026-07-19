@@ -36,18 +36,18 @@
       },
       "itemRefs": [
         {
-          "contentType": "new_arrival",
-          "contentId": "article_old_vines_new_voices",
+          "contentType": "article",
+          "contentId": "article_why_2018_stellenbosch",
           "priority": 1
         },
         {
-          "contentType": "article",
-          "contentId": "article_valley_that_taught_cape",
+          "contentType": "guide",
+          "contentId": "guide_field_guide_swartland_chenin",
           "priority": 2
         },
         {
-          "contentType": "guide",
-          "contentId": "guide_how_to_read_cape_label",
+          "contentType": "article",
+          "contentId": "article_decanting_how_long",
           "priority": 3
         }
       ]
@@ -120,13 +120,18 @@
       "itemRefs": [
         {
           "contentType": "room_activity",
-          "contentId": "activity_sarah_kanonkop_checkin",
+          "contentId": "activity_alexandra_rubicon_review",
           "priority": 1
         },
         {
           "contentType": "room_activity",
-          "contentId": "activity_james_rubicon_review",
+          "contentId": "activity_johan_pinotage_review",
           "priority": 2
+        },
+        {
+          "contentType": "room_activity",
+          "contentId": "activity_nomsa_constance_note",
+          "priority": 3
         }
       ]
     },
