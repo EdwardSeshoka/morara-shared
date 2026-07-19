@@ -35,5 +35,40 @@
       "kind": "region",
       "regionId": "region_swartland"
     }
+  },
+  {
+    "id": "event_chenin_masterclass",
+    "title": "Chenin blanc masterclass",
+    "eventType": "sommelier_led",
+    "startDateTime": "2026-07-30T18:00:00.000Z",
+    "venueName": "Kwari Live",
+    "location": "Online",
+    "host": {
+      "name": "Nomsa Dlamini",
+      "tier": "professional",
+      "role": "sommelier"
+    },
+    "subject": {
+      "kind": "style",
+      "styleName": "Chenin Blanc"
+    }
+  },
+  {
+    "id": "event_cap_classique_brunch",
+    "title": "Cap Classique brunch",
+    "eventType": "pairing",
+    "startDateTime": "2026-08-03T09:00:00.000Z",
+    "venueName": "Leeu Estates",
+    "location": "Franschhoek",
+    "seatsAvailable": 0,
+    "host": {
+      "name": "Leeu Estates",
+      "tier": "producer",
+      "role": "producer"
+    },
+    "subject": {
+      "kind": "region",
+      "regionId": "region_franschhoek"
+    }
   }
 ]
