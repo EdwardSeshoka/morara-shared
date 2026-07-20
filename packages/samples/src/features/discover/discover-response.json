@@ -357,6 +357,7 @@
           "title": "The Swartland Table",
           "subtitle": "Region · Swartland",
           "description": "Old-bush reds and skin-contact whites from the granite ridges north of the Cape.",
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 12,
           "curator": {
             "name": "Thandi Nkosi",
@@ -374,6 +375,7 @@
           "title": "The Meerlust Cellar",
           "subtitle": "Estate · Stellenbosch",
           "description": "Four decades of Bordeaux blends from one of the Cape’s founding estates.",
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 8,
           "curator": {
             "name": "Meerlust Estate",
@@ -391,6 +393,7 @@
           "title": "Cape Bordeaux",
           "subtitle": "Curated · Bordeaux blends",
           "description": "Cabernet-led blends built to reward a decade in the cellar.",
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 9,
           "curator": {
             "name": "Pieter van Wyk",
@@ -407,6 +410,7 @@
           "title": "Barolo DOCG",
           "subtitle": "Appellation · Piedmont",
           "description": "Eleven communes of long-lived, perfumed Nebbiolo.",
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 24,
           "curator": {
             "name": "Nomsa Dlamini",
