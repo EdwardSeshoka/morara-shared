@@ -1,5 +1,26 @@
 # @edwardseshoka/fixtures
 
+## 7.0.1
+
+### Patch Changes
+
+- 870d313: Seed doorway card images. The four discover `doorway_cards` — The Swartland
+  Table, The Meerlust Cellar, Cape Bordeaux and Barolo DOCG — now carry an
+  `imageUrl` in both the `discover-response.json` and `curation.json` fixtures, so
+  the "Find your way in" browse cards render photography instead of falling back to
+  the mesh placeholder. Data-only; the `DiscoverDoorwayContract` already declared
+  `imageUrl` as optional.
+- 697ec28: Seed two more "This week in wine" reads. The discover `editorial` section now
+  carries five items instead of three — adding a TASTING story ("Six Cinsaults,
+  poured blind.") and a NOTE article ("The case for cellaring Chenin.") to
+  `discover-response.json`.
+
+  The desktop Read section renders a lead, an image-led feature and a title-only
+  index whose last row bottom-aligns with the lead's byline; with only three items
+  the index collapsed to a single row and left the column half empty. Data-only —
+  no contract change, and both new items use existing `contentType` and byline
+  `tier` values.
+
 ## 7.0.0
 
 ### Major Changes
