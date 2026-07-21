@@ -134,6 +134,34 @@
             "tier": "professional",
             "role": "sommelier"
           }
+        },
+        {
+          "id": "story_six_cinsaults_poured_blind",
+          "contentType": "story",
+          "categoryLabel": "TASTING",
+          "title": "Six Cinsaults, poured blind.",
+          "description": "A grape the Cape once pulled out by the hectare, tasted without labels — and what the room reached for twice.",
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read tasting",
+          "author": {
+            "name": "Sipho Khumalo",
+            "tier": "professional",
+            "role": "sommelier"
+          }
+        },
+        {
+          "id": "article_case_for_cellaring_chenin",
+          "contentType": "article",
+          "categoryLabel": "NOTE",
+          "title": "The case for cellaring Chenin.",
+          "description": "Drunk young almost everywhere, yet the Cape’s old-vine bottlings reward a decade of patience more reliably than most.",
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read note",
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          }
         }
       ]
     },
