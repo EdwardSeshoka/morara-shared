@@ -29,6 +29,16 @@
           "contentType": "article",
           "contentId": "article_decanting_how_long",
           "priority": 3
+        },
+        {
+          "contentType": "story",
+          "contentId": "story_six_cinsaults_poured_blind",
+          "priority": 4
+        },
+        {
+          "contentType": "article",
+          "contentId": "article_case_for_cellaring_chenin",
+          "priority": 5
         }
       ]
     },
