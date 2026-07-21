@@ -134,6 +134,34 @@
             "tier": "professional",
             "role": "sommelier"
           }
+        },
+        {
+          "id": "story_six_cinsaults_poured_blind",
+          "contentType": "story",
+          "categoryLabel": "TASTING",
+          "title": "Six Cinsaults, poured blind.",
+          "description": "A grape the Cape once pulled out by the hectare, tasted without labels — and what the room reached for twice.",
+          "imageUrl": "https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read tasting",
+          "author": {
+            "name": "Sipho Khumalo",
+            "tier": "professional",
+            "role": "sommelier"
+          }
+        },
+        {
+          "id": "article_case_for_cellaring_chenin",
+          "contentType": "article",
+          "categoryLabel": "NOTE",
+          "title": "The case for cellaring Chenin.",
+          "description": "Drunk young almost everywhere, yet the Cape’s old-vine bottlings reward a decade of patience more reliably than most.",
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1200&q=80",
+          "ctaLabel": "Read note",
+          "author": {
+            "name": "Thandi Nkosi",
+            "tier": "professional",
+            "role": "sommelier"
+          }
         }
       ]
     },
@@ -357,6 +385,7 @@
           "title": "The Swartland Table",
           "subtitle": "Region · Swartland",
           "description": "Old-bush reds and skin-contact whites from the granite ridges north of the Cape.",
+          "imageUrl": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 12,
           "curator": {
             "name": "Thandi Nkosi",
@@ -374,6 +403,7 @@
           "title": "The Meerlust Cellar",
           "subtitle": "Estate · Stellenbosch",
           "description": "Four decades of Bordeaux blends from one of the Cape’s founding estates.",
+          "imageUrl": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 8,
           "curator": {
             "name": "Meerlust Estate",
@@ -391,6 +421,7 @@
           "title": "Cape Bordeaux",
           "subtitle": "Curated · Bordeaux blends",
           "description": "Cabernet-led blends built to reward a decade in the cellar.",
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 9,
           "curator": {
             "name": "Pieter van Wyk",
@@ -407,6 +438,7 @@
           "title": "Barolo DOCG",
           "subtitle": "Appellation · Piedmont",
           "description": "Eleven communes of long-lived, perfumed Nebbiolo.",
+          "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&auto=format&fit=crop&q=80",
           "wineCount": 24,
           "curator": {
             "name": "Nomsa Dlamini",
